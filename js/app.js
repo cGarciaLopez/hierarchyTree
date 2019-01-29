@@ -6,8 +6,9 @@ app.controller('appController', function ($scope, $http, dataResource) {
     $scope.datosResource = dataResource.get();
     // Objeto que almacena los identificadores de los elementos seleccionados
     $scope.selected = [];
-    $scope.clickedAccount =false;
-    
+    $scope.clickedAccount = false;
+    $scope.clickedDepartament = false;
+
     // Selecciona el (o los grupos completos)
     // marca el checkbox
     // deshabilita el checkbox
@@ -34,6 +35,7 @@ app.controller('appController', function ($scope, $http, dataResource) {
     }
 
     $scope.addSelection = function (data) {
+      console.log("addSelection");
       var iddata = $scope.selected.indexOf(data);
       if (iddata > -1) {
         $scope.selected.splice(iddata, 1);
@@ -43,8 +45,11 @@ app.controller('appController', function ($scope, $http, dataResource) {
       }
     }
 
-    $scope.addAccount = function (account) {
-      iddata = $scope.selected.indexOf(data);
+    $scope.addAccount = function (data, account) {
+      console.log("addAccount");
+      // DOING: comprobar si alguno de los departamentos (account.departaments) está seleccionado ($scope.selected)
+      $scope.deleteDepartments(account.departaments)
+
       var idaccount = $scope.selected.indexOf(account);
       if (idaccount > -1) {
         $scope.selected.splice(idaccount, 1);
@@ -54,12 +59,23 @@ app.controller('appController', function ($scope, $http, dataResource) {
     }
 
     $scope.addDepartament = function (departament) {
+      console.log("addDepartament");
       iddepartament = $scope.selected.indexOf(departament);
       if (iddepartament > -1) {
         $scope.selected.splice(iddepartament, 1);
       } else {
         $scope.selected.push(departament);
       }
+    }
+
+    // Elimina los departamentos de una cuenta que estén en "$scope.selected"
+    $scope.deleteDepartments = function(_departments){
+        _departments.map(
+          function(_dept){
+              if( $scope.selected.indexOf(_dept) > -1){
+                $scope.selected.splice( $scope.selected.indexOf(_dept),1 )
+              }
+          });
     }
 
   });
