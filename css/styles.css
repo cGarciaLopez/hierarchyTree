@@ -1,0 +1,147 @@
+/* Default */
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mywindow {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Input Search */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3d3d3d!important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #3d3d3d;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(108,117,125,.5);
+}
+
+
+/****** Check Inpiut ****/ 
+.form-check-input {
+    position: relative;
+    margin-top: .7rem;
+    margin-left: 1.25rem;
+    float: right;
+    margin-right: 1rem;
+}
+
+/*** Dropdown menu ***/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px!important;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border-radius: 0px!important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #3d3d3d!important;
+    background-color: transparent;
+}
+
+.btn-link:hover {
+
+    color: #3d3d3d!important;
+    text-decoration: none!important;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+/* Bootstrap Styles*/
+/* Cards */
+.card-header {
+    padding: 0;
+    margin-bottom: 2px!important;
+    background-color: rgba(0,0,0,.01);
+    border: 1px solid #ced4da;
+}
+
+.card-header:first-child {
+    border-radius: 0pc;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid #3d3d3d!important;
+    border-radius: .25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem 0.5rem!important;
+
+}

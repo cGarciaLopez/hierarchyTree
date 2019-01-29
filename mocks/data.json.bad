@@ -1,0 +1,1680 @@
+	[{
+		"group_name": "GRUPO SANTANDER",
+		"business_group_code": "0009",
+		"accounts": [{
+			"account_name": "ALLFUNDS BANK INTERNATIONAL S.A.",
+			"account_cif": "LU22277710",
+			"account_code": "99827503",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK INTERNATIONAL S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "OPENBANK S.A.",
+			"account_cif": "A28021079",
+			"account_code": "99098774",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "DESARROLLO",
+				"departament_code": "007"
+			}, {
+				"departament_name": "TECNOLOGIA",
+				"departament_code": "008"
+			}, {
+				"departament_name": "MARKETING",
+				"departament_code": "004"
+			}, {
+				"departament_name": "FINANZAS",
+				"departament_code": "011"
+			}, {
+				"departament_name": "MEDIA",
+				"departament_code": "012"
+			}, {
+				"departament_name": "ORGANIZACION",
+				"departament_code": "010"
+			}, {
+				"departament_name": "CALIDAD",
+				"departament_code": "001"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "017"
+			}, {
+				"departament_name": "OPERACIONES",
+				"departament_code": "009"
+			}, {
+				"departament_name": "HIPERMERCADO",
+				"departament_code": "014"
+			}, {
+				"departament_name": "SALES",
+				"departament_code": "006"
+			}, {
+				"departament_name": "ESTRATEGIA",
+				"departament_code": "013"
+			}, {
+				"departament_name": "DIRECCION GENERAL",
+				"departament_code": "003"
+			}, {
+				"departament_name": "RECURSOS HUMANOS",
+				"departament_code": "002"
+			}, {
+				"departament_name": "BOLSA",
+				"departament_code": "015"
+			}, {
+				"departament_name": "CUSTOMER SERVICE",
+				"departament_code": "005"
+			}, {
+				"departament_name": "LEGALY CUMPLIMIENTO",
+				"departament_code": "016"
+			}, {
+				"departament_name": "OPENBANK S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "DINERS CLUB SPAIN S.A.",
+			"account_cif": "A28007813",
+			"account_code": "99209694",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ADMINISTRACION Y FINANZAS",
+				"departament_code": "012"
+			}, {
+				"departament_name": "VARIOS COMERCIAL MADRID",
+				"departament_code": "004"
+			}, {
+				"departament_name": "CAT",
+				"departament_code": "015"
+			}, {
+				"departament_name": "ASESORIA JURIDICA",
+				"departament_code": "010"
+			}, {
+				"departament_name": "VARIOS DIRECCION",
+				"departament_code": "001"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "016"
+			}, {
+				"departament_name": "CALIDAD",
+				"departament_code": "013"
+			}, {
+				"departament_name": "RRHH",
+				"departament_code": "014"
+			}, {
+				"departament_name": "OPERCIONES Y SISTEMAS",
+				"departament_code": "007"
+			}, {
+				"departament_name": "SERVICIOS GENERALES",
+				"departament_code": "011"
+			}, {
+				"departament_name": "VARIOS COMERCIAL BARCELONA",
+				"departament_code": "006"
+			}, {
+				"departament_name": "COMERCIAL BARCELONA",
+				"departament_code": "005"
+			}, {
+				"departament_name": "DIRECCION",
+				"departament_code": "000"
+			}, {
+				"departament_name": "RIEGOS",
+				"departament_code": "017"
+			}, {
+				"departament_name": "VARIOS MARKETING Y COMUNICACION",
+				"departament_code": "009"
+			}, {
+				"departament_name": "COMERCIAL MADRID",
+				"departament_code": "003"
+			}, {
+				"departament_name": "ESTUDIOS Y PLANIFICACION Y COSTES",
+				"departament_code": "002"
+			}, {
+				"departament_name": "MARKETING Y COMUNICACION",
+				"departament_code": "008"
+			}]
+		}, {
+			"account_name": "SANTANDER CONSUMER E.F.C. S.A.",
+			"account_cif": "A79082244",
+			"account_code": "99025900",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "GRUPOS",
+				"departament_code": "001"
+			}, {
+				"departament_name": "VIGO",
+				"departament_code": "004"
+			}, {
+				"departament_name": "SANTANDER CONSUMER E.F.C. S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "CADIZ",
+				"departament_code": "010"
+			}, {
+				"departament_name": "LAS PALMAS",
+				"departament_code": "008"
+			}, {
+				"departament_name": "SEVILLA",
+				"departament_code": "005"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "002"
+			}, {
+				"departament_name": "TENERIFE",
+				"departament_code": "009"
+			}, {
+				"departament_name": "MALAGA",
+				"departament_code": "003"
+			}, {
+				"departament_name": ".",
+				"departament_code": "007"
+			}, {
+				"departament_name": "TARJETA REGALO",
+				"departament_code": "011"
+			}, {
+				"departament_name": "BARCELONA",
+				"departament_code": "006"
+			}]
+		}, {
+			"account_name": "SANTANDER PRIVATE EQUITY S.A.",
+			"account_cif": "A83988626",
+			"account_code": "99432486",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}, {
+				"departament_name": "SANTANDER PRIVATE EQUITY S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "FUNDACION UNIVERSIA",
+			"account_cif": "G84545409",
+			"account_code": "99530719",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}, {
+				"departament_name": "FUNDACION UNIVERSIA",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER CAPITAL DESARROLLO SGECR S.A.",
+			"account_cif": "A82936923",
+			"account_code": "99355976",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}, {
+				"departament_name": "SANTANDER CAPITAL DESARROLLO SGECR S",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER CONSUMER RENTING S.L",
+			"account_cif": "B84677244",
+			"account_code": "99486938",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "MADRID",
+				"departament_code": "001"
+			}, {
+				"departament_name": "SANTANDER CONSUMER RENTING S.L",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "TRANSOLVER FINANCE E.F.C. S.A.",
+			"account_cif": "A78388600",
+			"account_code": "99005944",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "TRANSOLVER FINANCE E.F.C. S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "SAN BACK-OFFICES GLOBALES S.A",
+			"account_cif": "A81564361",
+			"account_code": "99495558",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SAN BACK-OFFICES GLOBALES S.A",
+				"departament_code": "000"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "INGENIERIA SOFTWARE BANCARIO S.L.",
+			"account_cif": "B83325076",
+			"account_code": "99419210",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SCF HOLANDA",
+				"departament_code": "023"
+			}, {
+				"departament_name": "PORTUGAL SPAIN",
+				"departament_code": "021"
+			}, {
+				"departament_name": "INGENIERIA SOFTWARE BANCARIO S.L.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "INDRA",
+				"departament_code": "005"
+			}, {
+				"departament_name": "IMC SOLUTIONS",
+				"departament_code": "009"
+			}, {
+				"departament_name": "PORTUGAL",
+				"departament_code": "013"
+			}, {
+				"departament_name": "MNEMO",
+				"departament_code": "004"
+			}, {
+				"departament_name": "BANESPA",
+				"departament_code": "024"
+			}, {
+				"departament_name": "CORPORATIVOS SAN",
+				"departament_code": "018"
+			}, {
+				"departament_name": "ALEMANIA",
+				"departament_code": "014"
+			}, {
+				"departament_name": "ARREGLOS INCIDENCIAS",
+				"departament_code": "011"
+			}, {
+				"departament_name": "REINO UNIDO",
+				"departament_code": "012"
+			}, {
+				"departament_name": "DINSA",
+				"departament_code": "006"
+			}, {
+				"departament_name": "INTERBANCO",
+				"departament_code": "019"
+			}, {
+				"departament_name": "SCF",
+				"departament_code": "022"
+			}, {
+				"departament_name": "IECISA",
+				"departament_code": "008"
+			}, {
+				"departament_name": "POLONIA",
+				"departament_code": "020"
+			}, {
+				"departament_name": "DISTINTO",
+				"departament_code": "003"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}, {
+				"departament_name": "MATCHMIND",
+				"departament_code": "007"
+			}, {
+				"departament_name": "ALTECMEX",
+				"departament_code": "017"
+			}, {
+				"departament_name": "RESTO",
+				"departament_code": "015"
+			}, {
+				"departament_name": "ISBAN SAP",
+				"departament_code": "002"
+			}, {
+				"departament_name": "BANIF",
+				"departament_code": "025"
+			}, {
+				"departament_name": "SICONET",
+				"departament_code": "010"
+			}, {
+				"departament_name": "ALTECCHILE",
+				"departament_code": "016"
+			}]
+		}, {
+			"account_name": "ALLFUNDS BANK S.A. LONDON BRANCH",
+			"account_cif": "GB941679786",
+			"account_code": "99831406",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK S.A. LONDON BRANCH",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "PORTAL UNIVERSIA S.A.",
+			"account_cif": "A82726639",
+			"account_code": "99319097",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "PORTAL UNIVERSIA S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "002"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "BANSALEASE S.A. EFC",
+			"account_cif": "A28922599",
+			"account_code": "99001141",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "GRUPOS",
+				"departament_code": "001"
+			}, {
+				"departament_name": "TARJETAS REGALO",
+				"departament_code": "000"
+			}, {
+				"departament_name": "TARJETA VIAJES",
+				"departament_code": "002"
+			}]
+		}, {
+			"account_name": "GEOBAN S.A.",
+			"account_cif": "A80040918",
+			"account_code": "99812141",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "GEOBAN S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER CONSUMER FINANCE S.A.",
+			"account_cif": "A28122570",
+			"account_code": "99316523",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "GRUPOS",
+				"departament_code": "001"
+			}, {
+				"departament_name": "SANTANDER CONSUMER FINANCE S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "002"
+			}]
+		}, {
+			"account_name": "PRODUBAN SERV.INFORMAT.GENERALES S.L.",
+			"account_cif": "B82077751",
+			"account_code": "99318990",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "EXTERNOS",
+				"departament_code": "002"
+			}, {
+				"departament_name": "EXTERNOS",
+				"departament_code": "001"
+			}, {
+				"departament_name": "EXTERNOS LOW COST",
+				"departament_code": "003"
+			}, {
+				"departament_name": "INTERNOS",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER FUND ADMINISTRATION S.A.",
+			"account_cif": "A87062840",
+			"account_code": "99812109",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER FUND ADMINISTRATION S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "ALLFUNDS BANK S.A. EN BOGOTA",
+			"account_cif": "CO9008402875",
+			"account_code": "99832404",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK S.A. EN BOGOTA",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "FUNDACION BIBLIOTECA VIRTUAL M.CERVANTES",
+			"account_cif": "G82975350",
+			"account_code": "99812158",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "FUNDACION BIBLIOTECA VIRTUAL M.CERVA",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER SECURITIES SERVICES S.A.",
+			"account_cif": "A28027274",
+			"account_code": "99812125",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER SECURITIES SERVICES S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SAN REAL ESTATE SGIIC S.A.",
+			"account_cif": "A80959612",
+			"account_code": "99318537",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SAN REAL ESTATE SGIIC S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "ZURICH SANTANDER INSURANCE AMERICA S.L.",
+			"account_cif": "B86091790",
+			"account_code": "99735037",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ZURICH SANTANDER INSURANCE AMERICA S",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "ALLFUNDS BANK S.A. DUBAI REPRESEN.OFFICE",
+			"account_cif": "CL1090",
+			"account_code": "99842965",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK S.A. DUBAI REPRESEN.OF",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "ALLFUNDS BANK SA OF REPR DE CHILE",
+			"account_cif": "CL591407201",
+			"account_code": "99831398",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK SA OF REPR DE CHILE",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "DAREP LTD",
+			"account_cif": "IE6424507D",
+			"account_code": "99812232",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "DAREP LTD",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER ESPAñA MERC.SERV.ENTI.PAGO SLU",
+			"account_cif": "B86621620",
+			"account_code": "99812117",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER ESPAñA MERC.SERV.ENTI.PAGO",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SAN B.O. GLOBAL ESPECIALIZADOS S.A.",
+			"account_cif": "A85967339",
+			"account_code": "99701948",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SAN B.O. GLOBAL ESPECIALIZADOS S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANT PRIVATE RESTATE ADVISORY",
+			"account_cif": "A84406529",
+			"account_code": "99812083",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANT PRIVATE RESTATE ADVISORY",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "ALLFUNDS INTERNATIONAL SWITZERLAND LTD",
+			"account_cif": "CHE209671785",
+			"account_code": "99831745",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS INTERNATIONAL SWITZERLAND L",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "ALLFUNDS BANK S.A. SUCURSAL EN MILAN",
+			"account_cif": "IT04276290964",
+			"account_code": "99832727",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK S.A. SUCURSAL EN MILAN",
+				"departament_code": "000"
+			}, {
+				"departament_name": "AMEX",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "UNIVERSIA HOLDING S.L.",
+			"account_cif": "B82976515",
+			"account_code": "99478414",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "UNIVERSIA HOLDING S.L.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "INDICE IBEROAMER INVESTIG CONOC A.I.E.",
+			"account_cif": "V86282233",
+			"account_code": "99814519",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "INDICE IBEROAMER INVESTIG CONOC A.I.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "REINTEGRA S.A.",
+			"account_cif": "A81735813",
+			"account_code": "99320731",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "REINTEGRA S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "ALLFUNDS BANK S.A.U",
+			"account_cif": "A41001371",
+			"account_code": "99317398",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "ALLFUNDS BANK S.A.U",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER GESTION INMOBILIARIA S.A.",
+			"account_cif": "A84953876",
+			"account_code": "99812091",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER GESTION INMOBILIARIA S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER PENSIONES EGFP S.A.",
+			"account_cif": "A78637675",
+			"account_code": "99062655",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER PENSIONES EGFP S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "GEOBAN S.A. SUCURSAL PORTUGAL",
+			"account_cif": "PT980359147",
+			"account_code": "99812133",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "GEOBAN S.A. SUCURSAL PORTUGAL",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER PRIVATE REAL ESTATE S.A.",
+			"account_cif": "A81828386",
+			"account_code": "99474496",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER PRIVATE REAL ESTATE S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER OPERACIONES RETAIL S.A.",
+			"account_cif": "A78043387",
+			"account_code": "99500415",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER OPERACIONES RETAIL S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "BANCO SANTANDER S.A.",
+			"account_cif": "A39000013",
+			"account_code": "99811523",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "2237857 AREA RELAC.ACCION.INVERSO",
+				"departament_code": "001"
+			}, {
+				"departament_name": "PEDIDOS",
+				"departament_code": "003"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "002"
+			}, {
+				"departament_name": "BANCO SANTANDER S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER HOLDING INTERNACIONAL S.A.",
+			"account_cif": "A80027097",
+			"account_code": "99419202",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER HOLDING INTERNACIONAL S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "AEGON SANTANDER GENERAL SEG Y REASEG S.A",
+			"account_cif": "A86588050",
+			"account_code": "99810699",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "AEGON SANTANDER GENERAL SEG Y REASEG",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "IBERICA DE COMPRAS CORPORATIVAS S.L.",
+			"account_cif": "B82797713",
+			"account_code": "99316879",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "LOW COST",
+				"departament_code": "001"
+			}, {
+				"departament_name": "IBERICA DE COMPRAS CORPORATIVAS S.L.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "AEGON SANTAND VIDA SEG Y REASEG S.A.",
+			"account_cif": "A86588068",
+			"account_code": "99810681",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "AEGON SANTAND VIDA SEG Y REASEG S.A.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SANTANDER CONSUMER MEDIAC OPER BANCAS.L",
+			"account_cif": "B87320891",
+			"account_code": "99840126",
+			"account_sector": "Banca y Financiero",
+			"account_ibex_35": "Y",
+			"departaments": [{
+				"departament_name": "SANTANDER CONSUMER MEDIAC OPER BANCA",
+				"departament_code": "000"
+			}]
+		}]
+	}, {
+		"group_name": "COSENTINO",
+		"business_group_code": "7339",
+		"accounts": [{
+			"account_name": "COSENTINO PORTO-MARM GRA E AFINS, OPORTO",
+			"account_cif": "PT503967270",
+			"account_code": "99656407",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO PORTO-MARM GRA E AFINS, OP",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO ITALIA SRL.",
+			"account_cif": "IT02291090286",
+			"account_code": "99656357",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO ITALIA SRL.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINOSA",
+			"account_cif": "A04117297",
+			"account_code": "99351116",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "EEUU C&C Y SUBSIDIARIAS",
+				"departament_code": "035"
+			}, {
+				"departament_name": "COMERCIAL MADRID",
+				"departament_code": "007"
+			}, {
+				"departament_name": "UNIDAD DE GESTION I+D+I",
+				"departament_code": "003"
+			}, {
+				"departament_name": "COMECIAL LATINOAMERICA",
+				"departament_code": "051"
+			}, {
+				"departament_name": "OPERACIONES",
+				"departament_code": "001"
+			}, {
+				"departament_name": "RESTAURANTE TEJERA",
+				"departament_code": "108"
+			}, {
+				"departament_name": "FISCAL",
+				"departament_code": "041"
+			}, {
+				"departament_name": "PORTO MANAGER",
+				"departament_code": "192"
+			}, {
+				"departament_name": "PLANIFICACION ESTRATEGICA",
+				"departament_code": "026"
+			}, {
+				"departament_name": "ADMINISTRACION Y FINANZAS",
+				"departament_code": "009"
+			}, {
+				"departament_name": "MARKETING  ALEMANIA",
+				"departament_code": "138"
+			}, {
+				"departament_name": "SUB. GRAL AUDITORIA Y PROCESOS",
+				"departament_code": "109"
+			}, {
+				"departament_name": "ALGARVE PROMOTION",
+				"departament_code": "089"
+			}, {
+				"departament_name": "DPTO DE CALIDAD",
+				"departament_code": "021"
+			}, {
+				"departament_name": "GRANDES CUENTAS",
+				"departament_code": "133"
+			}, {
+				"departament_name": "PROMOCION CANAL TIENDAS ACCIONES",
+				"departament_code": "088"
+			}, {
+				"departament_name": "APERTURA DE ALMACENES",
+				"departament_code": "066"
+			}, {
+				"departament_name": "GENERAL ALMACEN ALMERIA",
+				"departament_code": "065"
+			}, {
+				"departament_name": "GENERAL FUNDACION",
+				"departament_code": "152"
+			}, {
+				"departament_name": "ITALIA SUBSIDIARIAS",
+				"departament_code": "143"
+			}, {
+				"departament_name": "INFRAES.REDES Y COMUNICACIONES",
+				"departament_code": "094"
+			}, {
+				"departament_name": "ALMACEN BILBAO",
+				"departament_code": "091"
+			}, {
+				"departament_name": "ALMACEN TOLEDO",
+				"departament_code": "055"
+			}, {
+				"departament_name": "PLANIFICACION ESTRATEGICA",
+				"departament_code": "034"
+			}, {
+				"departament_name": "GENERAL ALMACEN GERONA",
+				"departament_code": "023"
+			}, {
+				"departament_name": "PORTO COMERCIAL",
+				"departament_code": "128"
+			}, {
+				"departament_name": "CONSTRUCCION INGENIERIA Y PROYECTO",
+				"departament_code": "042"
+			}, {
+				"departament_name": "EXPANSION",
+				"departament_code": "019"
+			}, {
+				"departament_name": "GG.CC.CUK",
+				"departament_code": "162"
+			}, {
+				"departament_name": "MARKETING FRANCE",
+				"departament_code": "141"
+			}, {
+				"departament_name": "LISBOA PROMOTION",
+				"departament_code": "130"
+			}, {
+				"departament_name": "DIRECCION COMERCIAL",
+				"departament_code": "105"
+			}, {
+				"departament_name": "ADMINISTRACION COMERCIAL",
+				"departament_code": "018"
+			}, {
+				"departament_name": "AUTOMATICA",
+				"departament_code": "093"
+			}, {
+				"departament_name": "GENERAL ITALIA",
+				"departament_code": "081"
+			}, {
+				"departament_name": "GRAL ALMACEN EXTREMADURA",
+				"departament_code": "077"
+			}, {
+				"departament_name": "COMPRAS Y SUMINISTROS",
+				"departament_code": "052"
+			}, {
+				"departament_name": "CANTERAS Y MINERIA",
+				"departament_code": "202"
+			}, {
+				"departament_name": "TMK ALMACEN VIGO",
+				"departament_code": "181"
+			}, {
+				"departament_name": "COMERCIAL MARKETING BRUSSELS",
+				"departament_code": "096"
+			}, {
+				"departament_name": "AREA JURIDICA",
+				"departament_code": "062"
+			}, {
+				"departament_name": "GGCC BELGICA",
+				"departament_code": "161"
+			}, {
+				"departament_name": "FABRICA FREGADEROS",
+				"departament_code": "117"
+			}, {
+				"departament_name": "MARKETING ITALIA",
+				"departament_code": "111"
+			}, {
+				"departament_name": "GRAL ALMACEN CASTELLON",
+				"departament_code": "082"
+			}, {
+				"departament_name": "COSENTINO BELGICA",
+				"departament_code": "063"
+			}, {
+				"departament_name": "COMERCIAL BARCELONA",
+				"departament_code": "006"
+			}, {
+				"departament_name": "BERLIN GENERAL SUPPLIES",
+				"departament_code": "120"
+			}, {
+				"departament_name": "AUDITORIA INTERNA",
+				"departament_code": "039"
+			}, {
+				"departament_name": "BRASIL SUBSIDIARIA-LATINA VITORIA",
+				"departament_code": "044"
+			}, {
+				"departament_name": "COMERCIAL EUROPA (SIN PORTUGAL)",
+				"departament_code": "024"
+			}, {
+				"departament_name": "COMERCIAL ALMACEN GRANADA",
+				"departament_code": "154"
+			}, {
+				"departament_name": "FERIA CORPORATIVA",
+				"departament_code": "110"
+			}, {
+				"departament_name": "COMPRA PIEDRA NATURAL",
+				"departament_code": "084"
+			}, {
+				"departament_name": "COMERCIAL VIGO",
+				"departament_code": "046"
+			}, {
+				"departament_name": "MARKETING DINAMARCA",
+				"departament_code": "121"
+			}, {
+				"departament_name": "MARKETING",
+				"departament_code": "010"
+			}, {
+				"departament_name": "RESTO TARJETA",
+				"departament_code": "209"
+			}, {
+				"departament_name": "OPORTO SUBSIDIARIA",
+				"departament_code": "186"
+			}, {
+				"departament_name": "PORTO MANAGER",
+				"departament_code": "149"
+			}, {
+				"departament_name": "ALMACEN SEVILLA",
+				"departament_code": "114"
+			}, {
+				"departament_name": "COMERCIAL ORIENTE MEDIO",
+				"departament_code": "074"
+			}, {
+				"departament_name": "TMK ALMACEN CANARIAS",
+				"departament_code": "206"
+			}, {
+				"departament_name": "MUNICH MANAGER",
+				"departament_code": "112"
+			}, {
+				"departament_name": "L. AMERICA RESTO",
+				"departament_code": "103"
+			}, {
+				"departament_name": "PORTO PROMOTION",
+				"departament_code": "090"
+			}, {
+				"departament_name": "PROMOCION ALM SAN SEBASTIAN",
+				"departament_code": "087"
+			}, {
+				"departament_name": "FUERZA DE VENTAS",
+				"departament_code": "012"
+			}, {
+				"departament_name": "COMERCIAL ALMACEN GRANADA",
+				"departament_code": "157"
+			}, {
+				"departament_name": "ADMINISTRACION ALMERIA",
+				"departament_code": "132"
+			}, {
+				"departament_name": "CONTROL DE GESTION",
+				"departament_code": "008"
+			}, {
+				"departament_name": "PROMOCION Y PRESCRIPCION",
+				"departament_code": "070"
+			}, {
+				"departament_name": "GENERAL ALMAC TARRAGONA",
+				"departament_code": "069"
+			}, {
+				"departament_name": "SUBDIRECCION GENERAL AREO ECOFIN",
+				"departament_code": "031"
+			}, {
+				"departament_name": "DINERS CONCILIADA",
+				"departament_code": "015"
+			}, {
+				"departament_name": "ATENCION AL CLIENTE",
+				"departament_code": "073"
+			}, {
+				"departament_name": "COMERCIAL PORTUGAL",
+				"departament_code": "005"
+			}, {
+				"departament_name": "GENERAL FABRICA ELABORADO",
+				"departament_code": "131"
+			}, {
+				"departament_name": "SURISTER DEL ARROYO",
+				"departament_code": "064"
+			}, {
+				"departament_name": "ALMACEN VIGO",
+				"departament_code": "033"
+			}, {
+				"departament_name": "CALIDAD SILESTONE III",
+				"departament_code": "106"
+			}, {
+				"departament_name": "COMERCIAL ASIA ORIENTAL",
+				"departament_code": "049"
+			}, {
+				"departament_name": "CALIDAD PROVEEDORES",
+				"departament_code": "197"
+			}, {
+				"departament_name": "NANTES MANAGER",
+				"departament_code": "174"
+			}, {
+				"departament_name": "GRAL INVESTIGACION Y OTORGAMIENTO",
+				"departament_code": "068"
+			}, {
+				"departament_name": "TOULOUSSE GENERAL SUPPLIES",
+				"departament_code": "189"
+			}, {
+				"departament_name": "GENERAL CANTERAS Y MINERIA",
+				"departament_code": "178"
+			}, {
+				"departament_name": "PRODUCTO E INNOVACION GASTOS",
+				"departament_code": "166"
+			}, {
+				"departament_name": "PADOVA MANAGER",
+				"departament_code": "119"
+			}, {
+				"departament_name": "TMK FILIAL FRANCIA",
+				"departament_code": "176"
+			}, {
+				"departament_name": "I+D+I",
+				"departament_code": "047"
+			}, {
+				"departament_name": "USA",
+				"departament_code": "040"
+			}, {
+				"departament_name": "MARKETING UK",
+				"departament_code": "140"
+			}, {
+				"departament_name": "ANDALUCIA GRANADA DISTRIBUIDORES",
+				"departament_code": "136"
+			}, {
+				"departament_name": "RELACIONES PUBLICAS GASTOS",
+				"departament_code": "101"
+			}, {
+				"departament_name": "LYON GENERAL SUPP",
+				"departament_code": "200"
+			}, {
+				"departament_name": "GRAL ALMACEN ZARAGOZA",
+				"departament_code": "067"
+			}, {
+				"departament_name": "REINO UNIDO",
+				"departament_code": "022"
+			}, {
+				"departament_name": "VISA COSENTINO",
+				"departament_code": "016"
+			}, {
+				"departament_name": "COMERCIAL EUROPA MEDITERRANEO",
+				"departament_code": "207"
+			}, {
+				"departament_name": "CALIDAD CLIENTES",
+				"departament_code": "195"
+			}, {
+				"departament_name": "GGCC. HOLLAND",
+				"departament_code": "165"
+			}, {
+				"departament_name": "DIRECCION COMERCIAL IBERIA",
+				"departament_code": "144"
+			}, {
+				"departament_name": "GOTEBORG GENERAL SUPPLIES",
+				"departament_code": "129"
+			}, {
+				"departament_name": "PROMOCIONAL TIENDAS GASTOS",
+				"departament_code": "124"
+			}, {
+				"departament_name": "ADMINISTRACION PERSONAL",
+				"departament_code": "201"
+			}, {
+				"departament_name": "MARKETING CHINA",
+				"departament_code": "145"
+			}, {
+				"departament_name": "PARIS  OFFICE",
+				"departament_code": "107"
+			}, {
+				"departament_name": "COSENTINO ASTURIAS",
+				"departament_code": "078"
+			}, {
+				"departament_name": "PROMOCION BARCELONA",
+				"departament_code": "194"
+			}, {
+				"departament_name": "TRANSPORTE GENERAL",
+				"departament_code": "083"
+			}, {
+				"departament_name": "GERENTE ALMACEN GRANADA",
+				"departament_code": "193"
+			}, {
+				"departament_name": "COMERCIAL SANTANDER",
+				"departament_code": "188"
+			}, {
+				"departament_name": "G.G.C.C. SWISS",
+				"departament_code": "168"
+			}, {
+				"departament_name": "TMK BARCELONA",
+				"departament_code": "159"
+			}, {
+				"departament_name": "MUNICH OFFICE",
+				"departament_code": "080"
+			}, {
+				"departament_name": "ANDALUCIA CADIZ DISTRIBUIDORES",
+				"departament_code": "086"
+			}, {
+				"departament_name": "ALMACEN MADRID",
+				"departament_code": "179"
+			}, {
+				"departament_name": "COMERCIAL ZARAGOZA",
+				"departament_code": "153"
+			}, {
+				"departament_name": "GENERAL ALMACEN SANTANDER",
+				"departament_code": "048"
+			}, {
+				"departament_name": "PLANIFICACION COMERCIAL",
+				"departament_code": "032"
+			}, {
+				"departament_name": "RH VENECIA",
+				"departament_code": "122"
+			}, {
+				"departament_name": "GENERAL ALMACEN VALENCIA",
+				"departament_code": "053"
+			}, {
+				"departament_name": "GENERAL PROMOTORES",
+				"departament_code": "038"
+			}, {
+				"departament_name": "COMERCIAL MANCHESTER",
+				"departament_code": "185"
+			}, {
+				"departament_name": "GENERAL ALMACEN GUIPUZCOA",
+				"departament_code": "027"
+			}, {
+				"departament_name": "VIENA COMMERCIAL",
+				"departament_code": "205"
+			}, {
+				"departament_name": "CALIDAD PIEDRA NATURAL",
+				"departament_code": "203"
+			}, {
+				"departament_name": "TMK FILIAL SUECIA",
+				"departament_code": "155"
+			}, {
+				"departament_name": "ALMACEN CASTILLA TOLEDO",
+				"departament_code": "134"
+			}, {
+				"departament_name": "LYON OFFICE",
+				"departament_code": "100"
+			}, {
+				"departament_name": "PARIS PROMOTION",
+				"departament_code": "158"
+			}, {
+				"departament_name": "GENERAL SILESTONE",
+				"departament_code": "029"
+			}, {
+				"departament_name": "Z MANAGER",
+				"departament_code": "118"
+			}, {
+				"departament_name": "IMPLANTACION SAP BRASIL",
+				"departament_code": "150"
+			}, {
+				"departament_name": "LISBOA COMERCIAL",
+				"departament_code": "127"
+			}, {
+				"departament_name": "PREVENCION DE RIESGOS LABORALES",
+				"departament_code": "099"
+			}, {
+				"departament_name": "OP. FABRICAS DE MARMOL",
+				"departament_code": "060"
+			}, {
+				"departament_name": "COMPENSACION Y BENEFICIOS",
+				"departament_code": "175"
+			}, {
+				"departament_name": "GENERAL ALMACEN SANTANDER",
+				"departament_code": "057"
+			}, {
+				"departament_name": "MARKETING PORTUGAL",
+				"departament_code": "167"
+			}, {
+				"departament_name": "INVESTIGACION Y OTORGAMIENTO",
+				"departament_code": "071"
+			}, {
+				"departament_name": "PROYECTOS",
+				"departament_code": "075"
+			}, {
+				"departament_name": "ANDALUCIA COMERCIAL",
+				"departament_code": "061"
+			}, {
+				"departament_name": "COMPRA DE MATERIAS PRIMAS",
+				"departament_code": "020"
+			}, {
+				"departament_name": "COMERCIAL ALMACEN MEXICO",
+				"departament_code": "191"
+			}, {
+				"departament_name": "MARKETING CASTELLON",
+				"departament_code": "208"
+			}, {
+				"departament_name": "DUSSELDORF PROMOTION",
+				"departament_code": "172"
+			}, {
+				"departament_name": "GG.CC DEUTSCHLAND",
+				"departament_code": "170"
+			}, {
+				"departament_name": "ANDALUCIA-RESTO DE SEVILLA",
+				"departament_code": "123"
+			}, {
+				"departament_name": "PRODUCTO E INNIVACION GASTOS",
+				"departament_code": "098"
+			}, {
+				"departament_name": "MARKETING USA",
+				"departament_code": "097"
+			}, {
+				"departament_name": "SISTEMAS Y PROCESOS",
+				"departament_code": "025"
+			}, {
+				"departament_name": "GERENTE ALMACEN SANTANDER",
+				"departament_code": "204"
+			}, {
+				"departament_name": "GG:CC:FRANCIA",
+				"departament_code": "182"
+			}, {
+				"departament_name": "MARKETING SUECIA",
+				"departament_code": "173"
+			}, {
+				"departament_name": "PROM. CANAL PROYECTISTAS ACCIONES",
+				"departament_code": "102"
+			}, {
+				"departament_name": "ALMACEN GENERAL LA CORUñA",
+				"departament_code": "017"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "036"
+			}, {
+				"departament_name": "LISBOA MANAGER",
+				"departament_code": "142"
+			}, {
+				"departament_name": "LISBOA SUBSIDIARIA",
+				"departament_code": "180"
+			}, {
+				"departament_name": "TMK ALMACEN EXTREMADURA",
+				"departament_code": "164"
+			}, {
+				"departament_name": "RECURSOS HUMANOS",
+				"departament_code": "002"
+			}, {
+				"departament_name": "PARIS MANAGER",
+				"departament_code": "147"
+			}, {
+				"departament_name": "ALGARVE COMERCIAL",
+				"departament_code": "126"
+			}, {
+				"departament_name": "NANTES OFFICE",
+				"departament_code": "196"
+			}, {
+				"departament_name": "COMERCIAL BELGICA",
+				"departament_code": "160"
+			}, {
+				"departament_name": "CALIDAD CLIENTES",
+				"departament_code": "151"
+			}, {
+				"departament_name": "FUTURAMIA",
+				"departament_code": "135"
+			}, {
+				"departament_name": "CALIDAD ELABORADO SILESTONE",
+				"departament_code": "116"
+			}, {
+				"departament_name": "ALMACEN MURCIA",
+				"departament_code": "056"
+			}, {
+				"departament_name": "SERVICIO DE ATENCION AL CLIENTE",
+				"departament_code": "043"
+			}, {
+				"departament_name": "CATTOLICA WAREHOUSE",
+				"departament_code": "187"
+			}, {
+				"departament_name": "MARKETING SUIZA",
+				"departament_code": "139"
+			}, {
+				"departament_name": "AJUSTES CONTABLES",
+				"departament_code": "125"
+			}, {
+				"departament_name": "ADMON ALM LEMONA",
+				"departament_code": "095"
+			}, {
+				"departament_name": "OFICINA TECNICA",
+				"departament_code": "079"
+			}, {
+				"departament_name": "GRAL ALMACEN VALLADOLID",
+				"departament_code": "072"
+			}, {
+				"departament_name": "COSENTINO SERVICIOS DIRECTOS",
+				"departament_code": "030"
+			}, {
+				"departament_name": "G.G.C.C. ESCANDINAVIA",
+				"departament_code": "169"
+			}, {
+				"departament_name": "CANARIAS COMERCIAL",
+				"departament_code": "028"
+			}, {
+				"departament_name": "COMERCIAL EUROPA ESTE",
+				"departament_code": "013"
+			}, {
+				"departament_name": "COMPRA DE SUMINISTROS GENERALES",
+				"departament_code": "199"
+			}, {
+				"departament_name": "TESORERIA",
+				"departament_code": "050"
+			}, {
+				"departament_name": "SUECIA",
+				"departament_code": "045"
+			}, {
+				"departament_name": "GENERAL ALMACEN LA CORUñA",
+				"departament_code": "156"
+			}, {
+				"departament_name": "COSENTINO S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "PROMOCION ALMACEN GRANADA",
+				"departament_code": "146"
+			}, {
+				"departament_name": "MUNICH PROMOTION",
+				"departament_code": "085"
+			}, {
+				"departament_name": "SERVICIOS CENTRALES",
+				"departament_code": "177"
+			}, {
+				"departament_name": "GG.CC.ITALIA",
+				"departament_code": "171"
+			}, {
+				"departament_name": "COMERCIAL ASIA OCCIDENTAL",
+				"departament_code": "076"
+			}, {
+				"departament_name": "COMERCIAL OCEANIA AFRICA",
+				"departament_code": "058"
+			}, {
+				"departament_name": "ALMACEN VIZCAYA",
+				"departament_code": "054"
+			}, {
+				"departament_name": "MARKETIN GENERAL EUROPA",
+				"departament_code": "183"
+			}, {
+				"departament_name": "ADMINISTRACIóN SAN SEBASTIAN",
+				"departament_code": "148"
+			}, {
+				"departament_name": "CONSTRUCCIÓN E INGENIERÍA",
+				"departament_code": "037"
+			}, {
+				"departament_name": "PRESIDENCIA",
+				"departament_code": "011"
+			}, {
+				"departament_name": "RH BRASIL",
+				"departament_code": "198"
+			}, {
+				"departament_name": "TMK ALMACEN ZARAGOZA",
+				"departament_code": "190"
+			}, {
+				"departament_name": "ESTRUCTURA CALIDAD",
+				"departament_code": "163"
+			}, {
+				"departament_name": "STAFF",
+				"departament_code": "115"
+			}, {
+				"departament_name": "ADMON SISTEMAS SOPORTE SEGURIDAD DES",
+				"departament_code": "092"
+			}, {
+				"departament_name": "DESARROLLO SOFTWARE SAP",
+				"departament_code": "104"
+			}, {
+				"departament_name": "SISTEMAS DE FORMACION",
+				"departament_code": "004"
+			}, {
+				"departament_name": "GOTEBORG LOGISTICS",
+				"departament_code": "184"
+			}, {
+				"departament_name": "GOTEBORG OFFICE",
+				"departament_code": "137"
+			}, {
+				"departament_name": "HQ GENERAL HOLLAND",
+				"departament_code": "113"
+			}, {
+				"departament_name": "GEST.MEDIOAMBIENTAL Y SERV.CENTRALES",
+				"departament_code": "059"
+			}, {
+				"departament_name": "GENERAL U.SERVICIOS COMERCIALES",
+				"departament_code": "014"
+			}]
+		}, {
+			"account_name": "COSENTINO FINLAND",
+			"account_cif": "FI27159417",
+			"account_code": "99827339",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO FINLAND",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "FUNDACION EDUARDA JUSTO",
+			"account_cif": "G04581500",
+			"account_code": "99594764",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "FUNDACION EDUARDA JUSTO",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO DENMARK APS",
+			"account_cif": "DK37276839",
+			"account_code": "99827347",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO DENMARK APS",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO AUSTRALIA PTY LIMITED",
+			"account_cif": "AU66150158277",
+			"account_code": "99746208",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO AUSTRALIA PTY LIMITED",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SURISTER DEL ARROYO S.L.",
+			"account_cif": "B04333076",
+			"account_code": "99593170",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "SURISTER DEL ARROYO S.L.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO IRELAND LIMITED",
+			"account_cif": "IE9731457E",
+			"account_code": "99656423",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO IRELAND LIMITED",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO RESEARCH AND DEVELOPMENT S.L.",
+			"account_cif": "B04714093",
+			"account_code": "99704991",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO RESEARCH AND DEVELOPMENT S",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO DEUTSCHLAND GMBH",
+			"account_cif": "DE208083799",
+			"account_code": "99656332",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO DEUTSCHLAND GMBH",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO SCANDINAVIA",
+			"account_cif": "SE556700491501",
+			"account_code": "99656365",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO SCANDINAVIA",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO PORTUGAL UNI LDA",
+			"account_cif": "PT507819241",
+			"account_code": "99656415",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO PORTUGAL UNI LDA",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO U.K. LTD",
+			"account_cif": "GB799494148",
+			"account_code": "99656340",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO U.K. LTD",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO AUSTRIA GMBH",
+			"account_cif": "ATU65080011",
+			"account_code": "99656399",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO AUSTRIA GMBH",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO THE NETHERLANDS B.V.",
+			"account_cif": "NL811341835B01",
+			"account_code": "99656324",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO THE NETHERLANDS B.V.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO BELGIUM SPRL",
+			"account_cif": "BE0894579629",
+			"account_code": "99656373",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO BELGIUM SPRL",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "STONE SERVICES OF FRANCE SARL",
+			"account_cif": "FR25503600595",
+			"account_code": "99656381",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "STONE SERVICES OF FRANCE SARL",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO SWISS A.G.",
+			"account_cif": "CHE113814308",
+			"account_code": "99656431",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO SWISS A.G.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO CENTER ISRAEL LTD",
+			"account_cif": "IL515103406",
+			"account_code": "99788580",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO CENTER ISRAEL LTD",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "VIGIA DEL VALLE S.L.",
+			"account_cif": "B04475810",
+			"account_code": "99679789",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "VIGIA DEL VALLE S.L.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO NORWAY AS",
+			"account_cif": "NO898197042",
+			"account_code": "99760464",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO NORWAY AS",
+				"departament_code": "000"
+			}]
+		}]
+	}, {
+		"group_name": "CEPSA PORTUGUESA PETROLEO",
+		"business_group_code": "4928",
+		"accounts": [{
+			"account_name": "CEPSA PORTUGUESA DE PETROLEOS S.A.",
+			"account_cif": "500513295",
+			"account_code": "99168866",
+			"account_sector": null,
+			"account_ibex_35": null,
+			"departaments": [{
+				"departament_name": "OC 400279884",
+				"departament_code": "012"
+			}, {
+				"departament_name": "JEREZ DE LA FRONTERA",
+				"departament_code": "007"
+			}, {
+				"departament_name": "OC 400345470",
+				"departament_code": "014"
+			}, {
+				"departament_name": "MADRID / ILIDIO MOTA",
+				"departament_code": "006"
+			}, {
+				"departament_name": "PV",
+				"departament_code": "002"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "001"
+			}, {
+				"departament_name": "OC 0400370312",
+				"departament_code": "016"
+			}, {
+				"departament_name": "BARCELONA 21FEB",
+				"departament_code": "008"
+			}, {
+				"departament_name": "OC 400138648",
+				"departament_code": "010"
+			}, {
+				"departament_name": "CLT LUBRIF BARCELONA",
+				"departament_code": "004"
+			}, {
+				"departament_name": "MADRID - OC 400137519",
+				"departament_code": "009"
+			}, {
+				"departament_name": "OC 400273313",
+				"departament_code": "011"
+			}, {
+				"departament_name": "OC 400362379",
+				"departament_code": "015"
+			}, {
+				"departament_name": "OC 400296454",
+				"departament_code": "013"
+			}, {
+				"departament_name": "LISBOA",
+				"departament_code": "000"
+			}, {
+				"departament_name": "FORMACAO/MKT REDE",
+				"departament_code": "003"
+			}, {
+				"departament_name": "F1 - SAO PAULO",
+				"departament_code": "005"
+			}]
+		}, {
+			"account_name": "PROPEL-PRODUTOS DE PETROLEO LDA.",
+			"account_cif": "500223840",
+			"account_code": "99269235",
+			"account_sector": null,
+			"account_ibex_35": null,
+			"departaments": [{
+				"departament_name": "LISBOA",
+				"departament_code": "000"
+			}, {
+				"departament_name": "PV",
+				"departament_code": "001"
+			}]
+		}, {
+			"account_name": "CLUBE DESPORTIVO CEPSA",
+			"account_cif": "504194950",
+			"account_code": "99302093",
+			"account_sector": null,
+			"account_ibex_35": null,
+			"departaments": [{
+				"departament_name": "CLUBE DESPORTIVO CEPSA",
+				"departament_code": "000"
+			}]
+		}]
+	}]

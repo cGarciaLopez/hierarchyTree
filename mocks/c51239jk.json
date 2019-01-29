@@ -1,0 +1,1036 @@
+[
+	{
+	"group_name": "EL CORTE INGLES",
+	"business_group_code": "6065",
+	"accounts": [{
+		"account_name": "FUNDACION RAMON ARECES",
+		"account_cif": "G28459311",
+		"account_code": "99028573",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PATOLOGIA DEL SUEÑO",
+			"departament_code": "007"
+		}, {
+			"departament_name": "CINCO SIGLOS DE MEDICINA",
+			"departament_code": "005"
+		}, {
+			"departament_name": "ABRIENDO MENTES",
+			"departament_code": "083"
+		}, {
+			"departament_name": "MASTERCLASS 17NOVIEMBRE",
+			"departament_code": "063"
+		}, {
+			"departament_name": "VECTOR CONTROL",
+			"departament_code": "090"
+		}, {
+			"departament_name": "SIMPOSIO HIPOACUSIAS",
+			"departament_code": "067"
+		}, {
+			"departament_name": "WORKSHOP HEALTH SYSTEM JUN15",
+			"departament_code": "019"
+		}, {
+			"departament_name": "XIV INTERNATIONAL ACCOUNTING",
+			"departament_code": "016"
+		}, {
+			"departament_name": "JORNADA SOBRE INNOVACION 7ABR16",
+			"departament_code": "040"
+		}, {
+			"departament_name": "II ENCUENTRO CIENTIFICOS",
+			"departament_code": "091"
+		}, {
+			"departament_name": "IMPACT OF OMIC SCIENCES",
+			"departament_code": "043"
+		}, {
+			"departament_name": "SIMPOSIO 2017 MIT",
+			"departament_code": "003"
+		}, {
+			"departament_name": "SIMPOSIO DERMATOLOGIA",
+			"departament_code": "087"
+		}, {
+			"departament_name": "CONFERENCE IN GROWTH",
+			"departament_code": "085"
+		}, {
+			"departament_name": "BIOECONOMIA",
+			"departament_code": "077"
+		}, {
+			"departament_name": "JORNADA PREVENCION DEPRESION 14JUN",
+			"departament_code": "042"
+		}, {
+			"departament_name": "II JORNADAS DIPLOMACIA",
+			"departament_code": "056"
+		}, {
+			"departament_name": "CONGRESO SOBRE LA UTOPIA",
+			"departament_code": "050"
+		}, {
+			"departament_name": "ECONOMY AND VALUES",
+			"departament_code": "066"
+		}, {
+			"departament_name": "ENFERMEDADES RARAS",
+			"departament_code": "044"
+		}, {
+			"departament_name": "ENFERMEDADES RARAS",
+			"departament_code": "092"
+		}, {
+			"departament_name": "COSME",
+			"departament_code": "041"
+		}, {
+			"departament_name": "SEMINARIO INT LONGEVIDAD",
+			"departament_code": "009"
+		}, {
+			"departament_name": "TALLER CERU",
+			"departament_code": "074"
+		}, {
+			"departament_name": "FUNDACION RAMON ARECES",
+			"departament_code": "000"
+		}, {
+			"departament_name": "HOMENAJE ALBERTO SOLS",
+			"departament_code": "075"
+		}, {
+			"departament_name": "CONGRESO PEDAGIA",
+			"departament_code": "046"
+		}, {
+			"departament_name": "ENCUENTRO RRULAC",
+			"departament_code": "004"
+		}, {
+			"departament_name": "ECONOMICS FOR ENERGY",
+			"departament_code": "065"
+		}, {
+			"departament_name": "GRAPHENES THE MATERIAS XXI",
+			"departament_code": "030"
+		}, {
+			"departament_name": "RIO TINTO",
+			"departament_code": "089"
+		}, {
+			"departament_name": "COSME 2017",
+			"departament_code": "082"
+		}, {
+			"departament_name": "MES GEOGRAFICO",
+			"departament_code": "031"
+		}, {
+			"departament_name": "AVANCES EN DERMAT.PEDIATRICA 2OCT",
+			"departament_code": "027"
+		}, {
+			"departament_name": "POLITICAS DE INNOVACION",
+			"departament_code": "084"
+		}, {
+			"departament_name": "SIMPOSIO SANIDAD DIGITAL",
+			"departament_code": "039"
+		}, {
+			"departament_name": "IV WORKSHOP NEW ECONOMIC",
+			"departament_code": "073"
+		}, {
+			"departament_name": "SIMPOSIO 3 Y 4 NOV",
+			"departament_code": "055"
+		}, {
+			"departament_name": "LA HISTORIA EVOLUTIVA",
+			"departament_code": "051"
+		}, {
+			"departament_name": "MATERIALES MESOPOROSOS",
+			"departament_code": "011"
+		}, {
+			"departament_name": "REINVENTAR EL HORIZONTE",
+			"departament_code": "014"
+		}, {
+			"departament_name": "MEETING 15 ANIVERSARIO CIC, 1OCT",
+			"departament_code": "028"
+		}, {
+			"departament_name": "EXPLORACION ESPACIAL 24NOVIEMBRE",
+			"departament_code": "064"
+		}, {
+			"departament_name": "BIOLOGIA REDES PROTEICAS",
+			"departament_code": "023"
+		}, {
+			"departament_name": "INMUNOTERAPIA DEL CANCER",
+			"departament_code": "093"
+		}, {
+			"departament_name": "ENVEJEC.SALUDABLE MARZO ABRIL 2015",
+			"departament_code": "006"
+		}, {
+			"departament_name": "COMPUTER VISION",
+			"departament_code": "072"
+		}, {
+			"departament_name": "JORNADA BIG DATA",
+			"departament_code": "035"
+		}, {
+			"departament_name": "SIMPOSIO PSIQUIATRIA",
+			"departament_code": "054"
+		}, {
+			"departament_name": "JORNADA SOBRE INNOVACION",
+			"departament_code": "012"
+		}, {
+			"departament_name": "SIMPOSIO JULIO PALACIOS",
+			"departament_code": "037"
+		}, {
+			"departament_name": "SIMPOSIO NCID NAVARRA",
+			"departament_code": "047"
+		}, {
+			"departament_name": "DIAGNOSIS AND THERAPIES",
+			"departament_code": "017"
+		}, {
+			"departament_name": "TALLER CIENCIA UK 2015",
+			"departament_code": "070"
+		}, {
+			"departament_name": "EMBO",
+			"departament_code": "078"
+		}, {
+			"departament_name": "POLITICAS DE DESARROLLO€",
+			"departament_code": "058"
+		}, {
+			"departament_name": "II SIMPOSIO PALACIOS",
+			"departament_code": "013"
+		}, {
+			"departament_name": "SIMPOSIO SOLITON",
+			"departament_code": "071"
+		}, {
+			"departament_name": "ECONOMIC FOR ENERGY WORKSHOP",
+			"departament_code": "034"
+		}, {
+			"departament_name": "SIMPOSIO TRASTORNO BIPOLAR",
+			"departament_code": "061"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}, {
+			"departament_name": "XI INT ACCOUNTING RESEARCH SYMPOSIUM",
+			"departament_code": "020"
+		}, {
+			"departament_name": "THE ARTIC OPPORTUNITIES MAD 12NOV",
+			"departament_code": "068"
+		}, {
+			"departament_name": "THE ARTIC OPPORTUNITIES MAD 12NOV",
+			"departament_code": "024"
+		}, {
+			"departament_name": "TALLER CIENCIA UK 2015",
+			"departament_code": "033"
+		}, {
+			"departament_name": "LO ULTIMO EN OBESIDAD 1DIC",
+			"departament_code": "029"
+		}, {
+			"departament_name": "SIMPOSIO NANOTECNOLOGIA",
+			"departament_code": "053"
+		}, {
+			"departament_name": "LESIONES DEL ADN Y CANCER DE PIEL",
+			"departament_code": "032"
+		}, {
+			"departament_name": "THE ORIGINS OF LIFE",
+			"departament_code": "059"
+		}, {
+			"departament_name": "SIMPOSIO COMPETENCIA CELULAR",
+			"departament_code": "057"
+		}, {
+			"departament_name": "MEDIO AMBIENTE Y SALUD: NUEVOS RETOS",
+			"departament_code": "026"
+		}, {
+			"departament_name": "1ER ENCUENTRO CIENT.ESPAñOL.SEP/15",
+			"departament_code": "018"
+		}, {
+			"departament_name": "SEMINARIOS GIJON",
+			"departament_code": "080"
+		}, {
+			"departament_name": "MOSAICISMO SOMATICO",
+			"departament_code": "010"
+		}, {
+			"departament_name": "SEMINARIO INSTITUTO FIGUEROLA",
+			"departament_code": "048"
+		}, {
+			"departament_name": "GRAPHENES THE MATERIAS XXI",
+			"departament_code": "069"
+		}, {
+			"departament_name": "ECONOMICS FOR ENERGY",
+			"departament_code": "076"
+		}, {
+			"departament_name": "SIMPOSIO SOLAR ENERGY",
+			"departament_code": "038"
+		}, {
+			"departament_name": "LSE MASTERCLASS 2",
+			"departament_code": "022"
+		}, {
+			"departament_name": "SEMINARIO OECD",
+			"departament_code": "079"
+		}, {
+			"departament_name": "ZIKA VIRUS",
+			"departament_code": "088"
+		}, {
+			"departament_name": "BAJA",
+			"departament_code": "002"
+		}, {
+			"departament_name": "MUJERES POR AFRICA",
+			"departament_code": "062"
+		}, {
+			"departament_name": "LAS LEVADURAS COMO BANCO DE PRUEBAS",
+			"departament_code": "060"
+		}, {
+			"departament_name": "XII ACCOUNTING RESEARCH",
+			"departament_code": "049"
+		}, {
+			"departament_name": "MADMAC-FRA CONFERENCE",
+			"departament_code": "045"
+		}, {
+			"departament_name": "IMMUNOSTIMULATORY MONOCLONAL PNA",
+			"departament_code": "025"
+		}, {
+			"departament_name": "MONOGRAFICO ELA",
+			"departament_code": "015"
+		}, {
+			"departament_name": "HOMENAJE GAGO",
+			"departament_code": "052"
+		}, {
+			"departament_name": "DIAGNOSTICO PRENATAL",
+			"departament_code": "081"
+		}, {
+			"departament_name": "SIMPOSIO EDICION GENETICA",
+			"departament_code": "008"
+		}, {
+			"departament_name": "XIII INT ACCOUNTING",
+			"departament_code": "086"
+		}, {
+			"departament_name": "CANCER AS A RESULT OF AGING. 3NOV 15",
+			"departament_code": "021"
+		}, {
+			"departament_name": "BARCELONA DATA SCIENCE CONFERENCE",
+			"departament_code": "036"
+		}]
+	}, {
+		"account_name": "INVESTRONICA S.A.",
+		"account_cif": "A28669844",
+		"account_code": "99204422",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "MARKETING",
+			"departament_code": "005"
+		}, {
+			"departament_name": "INVESTRONICA S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "BARCELONA",
+			"departament_code": "001"
+		}, {
+			"departament_name": "EMVI 99",
+			"departament_code": "003"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "002"
+		}, {
+			"departament_name": "SEVILLA",
+			"departament_code": "006"
+		}, {
+			"departament_name": "LA CORUñA",
+			"departament_code": "004"
+		}]
+	}, {
+		"account_name": "OPTICAS E.C.I. S.A.",
+		"account_cif": "A83709634",
+		"account_code": "99395030",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "OPTICAS E.C.I. S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "TELECOR S.A.",
+		"account_cif": "A80028731",
+		"account_code": "99180242",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "LOGROñO",
+			"departament_code": "008"
+		}, {
+			"departament_name": "SEVILLA",
+			"departament_code": "005"
+		}, {
+			"departament_name": "AUDITORIO EFICIENCIA ENERGETICA",
+			"departament_code": "015"
+		}, {
+			"departament_name": "BARAKALDO",
+			"departament_code": "011"
+		}, {
+			"departament_name": "CASTELLON",
+			"departament_code": "009"
+		}, {
+			"departament_name": "LAS PALMAS",
+			"departament_code": "004"
+		}, {
+			"departament_name": "OVIEDO",
+			"departament_code": "014"
+		}, {
+			"departament_name": "CORUñA",
+			"departament_code": "006"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "012"
+		}, {
+			"departament_name": "MURCIA",
+			"departament_code": "002"
+		}, {
+			"departament_name": "MEDINA DEL CAMPO",
+			"departament_code": "010"
+		}, {
+			"departament_name": "EL EJIDO",
+			"departament_code": "007"
+		}, {
+			"departament_name": "MADRID-PZA. AZCA",
+			"departament_code": "000"
+		}, {
+			"departament_name": "ANTEQUERA",
+			"departament_code": "013"
+		}, {
+			"departament_name": "ALMERIA",
+			"departament_code": "001"
+		}, {
+			"departament_name": "BILBAO",
+			"departament_code": "003"
+		}]
+	}, {
+		"account_name": "ESGUEVA S.A.",
+		"account_cif": "A28264448",
+		"account_code": "99540205",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "ESGUEVA S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "SEPHORA COSMETICOS ESPAñA S.L.",
+		"account_cif": "B84227461",
+		"account_code": "99446676",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "MUM 2016",
+			"departament_code": "002"
+		}, {
+			"departament_name": "SEPHORA COSMETICOS ESPAñA S.L.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES PARIS, S.A.R.L.",
+		"account_cif": "FR79702013822",
+		"account_code": "99166290",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "AEREO",
+			"departament_code": "000"
+		}, {
+			"departament_name": "HOTELES",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "SEGUROS ECI VIDA PENS. Y REASEGUROS S.A.",
+		"account_cif": "A79346839",
+		"account_code": "99064107",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}, {
+			"departament_name": "SEGUROS ECI VIDA PENS. Y REASEGUROS",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "INFORMATICA EL CORTE INGLES S.A.",
+		"account_cif": "A28855260",
+		"account_code": "99082323",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "TARJETA REGALO",
+			"departament_code": "002"
+		}, {
+			"departament_name": "JORNADAS DE TRABAJO",
+			"departament_code": "003"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}, {
+			"departament_name": "INFORMATICA EL CORTE INGLES S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "EVENTOS",
+			"departament_code": "005"
+		}, {
+			"departament_name": "OPERACIONES ESPECIALES",
+			"departament_code": "004"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES S.A.",
+		"account_cif": "A28017895",
+		"account_code": "99235699",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "MARRUECOS",
+			"departament_code": "004"
+		}, {
+			"departament_name": "AUTOCARES DESPLAZAMIENTO PERSONAL",
+			"departament_code": "001"
+		}, {
+			"departament_name": "CUENTA GENERAL DE VIAJES",
+			"departament_code": "000"
+		}, {
+			"departament_name": "CONTABILIDAD Y GASTOS",
+			"departament_code": "002"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "003"
+		}]
+	}, {
+		"account_name": "SUPERCOR S.A.",
+		"account_cif": "A78476397",
+		"account_code": "99274268",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "SUPERCOR S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "AUTOCARES DESPLAZAMIENTO PERSONAL",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES (LONDON) L.T.D.",
+		"account_cif": "GB241080701",
+		"account_code": "99206856",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "AEREO",
+			"departament_code": "000"
+		}, {
+			"departament_name": "HOTELES",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "INFORMATICA EL CORTE INGLES",
+		"account_cif": "980079659",
+		"account_code": "99146557",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PORTO",
+			"departament_code": "001"
+		}, {
+			"departament_name": "LISBOA",
+			"departament_code": "000"
+		}, {
+			"departament_name": "PV",
+			"departament_code": "002"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES S.A.",
+		"account_cif": "ESA28017895",
+		"account_code": "99824823",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PORTUGAL",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "TIENDAS DE CONVENIENCIA S.A.",
+		"account_cif": "A78476389",
+		"account_code": "99260622",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "GRUPOS",
+			"departament_code": "002"
+		}, {
+			"departament_name": "FORMACION",
+			"departament_code": "001"
+		}, {
+			"departament_name": "TIENDAS DE CONVENIENCIA S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "PUBLIECI TELEVISION S.A.",
+		"account_cif": "A82806761",
+		"account_code": "99452245",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PUBLIECI TELEVISION S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "INVESTRONICA S.A.-SUCURSAL PORTUGAL",
+		"account_cif": "980185947",
+		"account_code": "99307134",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PV",
+			"departament_code": "001"
+		}, {
+			"departament_name": "INVESTRONICA S.A.-SUCURSAL PORTUGAL",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "BRICOR S.A.",
+		"account_cif": "A50319771",
+		"account_code": "99473399",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "BRICOR S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "AUTOCARES DESPLAZAMIENTO PERSONAL",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES BUREAU REPRES.AU MAROC",
+		"account_cif": "40233498",
+		"account_code": "99681801",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES BUREAU REPRES.AU MAR",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "SFERA JOVEN SUCURSAL GRECIA",
+		"account_cif": "ES998935047",
+		"account_code": "99497273",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "SFERA JOVEN SUCURSAL GRECIA",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "CDEV SENIOR S.L.",
+		"account_cif": "B87143483",
+		"account_code": "99804320",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CDEV SENIOR S.L.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "GALLERY DA VISAO SER.OPTICA UNIPESS.LDA",
+		"account_cif": "505884720",
+		"account_code": "99480378",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "GALLERY DA VISAO SER.OPTICA UNIPESS.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "CONSTRUCCIONES PROMOCIONES INSTALAC.S.A.",
+		"account_cif": "A28436483",
+		"account_code": "99020364",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CONSTRUCCIONES PROMOCIONES INSTALAC.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "TAGUS BOOKS S.L.",
+		"account_cif": "B65923732",
+		"account_code": "99768343",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "TAGUS BOOKS S.L.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "CENTRO DE SEGUROS S.A.",
+		"account_cif": "A28128189",
+		"account_code": "99015729",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CENTRO DE SEGUROS S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES FRANKFURT GMBH",
+		"account_cif": "DE114167536",
+		"account_code": "99206849",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "HOTELES",
+			"departament_code": "002"
+		}, {
+			"departament_name": "HOTELES",
+			"departament_code": "001"
+		}, {
+			"departament_name": "AEREO",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "FINANCEIRA EL CORTE INGLES S.A.",
+		"account_cif": "980187125",
+		"account_code": "99388589",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "FINANCEIRA EL CORTE INGLES S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "OPO - FORMACAO ABERTURA",
+			"departament_code": "002"
+		}, {
+			"departament_name": "OPO - LANCAMENTO",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "PERFUMES Y COSMETICOS GRAN VIA S.L.",
+		"account_cif": "B85983716",
+		"account_code": "99659765",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PERFUMES Y COSMETICOS GRAN VIA S.L.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "ASON INMOBILIARIA DE ARRIENDO S.L.",
+		"account_cif": "B28371243",
+		"account_code": "99540197",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "ASON INMOBILIARIA DE ARRIENDO S.L.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES",
+		"account_cif": "501810285",
+		"account_code": "99146631",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "MARKETING",
+			"departament_code": "008"
+		}, {
+			"departament_name": "GRECI -  LC 6363",
+			"departament_code": "011"
+		}, {
+			"departament_name": "RH-FORMAÇÃO",
+			"departament_code": "010"
+		}, {
+			"departament_name": "PROMOC. SUMMERTIME-1020044",
+			"departament_code": "007"
+		}, {
+			"departament_name": "OPO FORMACAO ABERTURA",
+			"departament_code": "004"
+		}, {
+			"departament_name": "GAIA",
+			"departament_code": "001"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "005"
+		}, {
+			"departament_name": "FORM. FINANCIADA",
+			"departament_code": "006"
+		}, {
+			"departament_name": "PROMO LOS ABETOS",
+			"departament_code": "009"
+		}, {
+			"departament_name": "MARKETING",
+			"departament_code": "002"
+		}, {
+			"departament_name": "LISBOA",
+			"departament_code": "000"
+		}, {
+			"departament_name": "SERVICOS CENTRAIS",
+			"departament_code": "003"
+		}]
+	}, {
+		"account_name": "OPTICA 2000 S.L.",
+		"account_cif": "ESB08422941",
+		"account_code": "99674525",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PORTUGAL",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "CESS -MEDIACAO IMOBILIARIA SA SUC.PORTUG",
+		"account_cif": "980248507",
+		"account_code": "99351173",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CESS -MEDIACAO IMOBILIARIA SA SUC.PO",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "TOURMUNDIAL OPERADORES S.A.",
+		"account_cif": "A28490910",
+		"account_code": "99466146",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "TOURMUNDIAL OPERADORES S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES HONG KONG LTD.",
+		"account_cif": "HONGKONG",
+		"account_code": "99344285",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES HONG KONG LTD.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "SFERA JOVEN S.A. SUCURSAL PORTUGAL",
+		"account_cif": "980315832",
+		"account_code": "99461055",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PV",
+			"departament_code": "001"
+		}, {
+			"departament_name": "SFERA JOVEN S.A. SUCURSAL PORTUGAL",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "BRICOR S.A.",
+		"account_cif": "ESA50319771",
+		"account_code": "99669871",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "PORTUGAL",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES LIAISON OFFICE INDIA",
+		"account_cif": "AABFE 1773H",
+		"account_code": "99511917",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES LIAISON OFFICE INDIA",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "FINANCIERA EL CORTE INGLES E.F.C. S.A.",
+		"account_cif": "A81322448",
+		"account_code": "99190548",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "FINANCIERA EL CORTE INGLES E.F.C. S.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "CANAL CLUB S.A.",
+		"account_cif": "A81323321",
+		"account_code": "99443921",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CANAL CLUB S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "OPTICA 2000 S.L.",
+		"account_cif": "B08422941",
+		"account_code": "99427619",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "OPTICA 2000 S.L.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "GRUPOS",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "CESS CORR.DE SEGUROS S.A.",
+		"account_cif": "980220718",
+		"account_code": "99317125",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CESS CORR.DE SEGUROS S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "SFERA JOVEN S.A.",
+		"account_cif": "A83036137",
+		"account_code": "99309106",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "SFERA JOVEN S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES NEW YORK INC",
+		"account_cif": "NEW YORK",
+		"account_code": "99352312",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES NEW YORK INC",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "HIPERCOR S.A.",
+		"account_cif": "A28642866",
+		"account_code": "99090417",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "CUENTA GENERAL VIAJES",
+			"departament_code": "000"
+		}, {
+			"departament_name": "AUTOCARES DESPLAZAMIENTO PERSONAL",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "BRICOR S.A. SUCURSAL EM PORTUGAL",
+		"account_cif": "PT980418410",
+		"account_code": "99669368",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "ESPAÑA",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "IZARO FILMS S.A.",
+		"account_cif": "A28276905",
+		"account_code": "99040651",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "IZARO FILMS S.A.",
+			"departament_code": "000"
+		}, {
+			"departament_name": "SRES REYZABAL PTA 2",
+			"departament_code": "001"
+		}]
+	}, {
+		"account_name": "BRICOR S.A. SUCURSAL EM PORTUGAL",
+		"account_cif": "980418410",
+		"account_code": "99650442",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "BRICOR S.A. SUCURSAL EM PORTUGAL",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES (SHANGHAI)TRADING CO.LTD",
+		"account_cif": "CN91310115580568",
+		"account_code": "99718900",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES (SHANGHAI)TRADING CO",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES-GRANDES ARMAZENS S.A.",
+		"account_cif": "PT501810285",
+		"account_code": "99285652",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES-GRANDES ARMAZENS S.A",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "TELECOR SERV.DE TELECOMUNIC.SUC.PORT.",
+		"account_cif": "980239729",
+		"account_code": "99339038",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "TELECOR SERV.DE TELECOMUNIC.SUC.PORT",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "GESTION DE PUNTOS DE VENTA S.A.",
+		"account_cif": "A81931214",
+		"account_code": "99203705",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "GESTION DE PUNTOS DE VENTA S.A.",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EL CORTE INGLES LIAISON OFFICE TURKEY",
+		"account_cif": "TURQUIA",
+		"account_code": "99378648",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EL CORTE INGLES LIAISON OFFICE TURKE",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "FINANCEIRA EL CORTE INGLES PORT. SFC SA",
+		"account_cif": "513755292",
+		"account_code": "99820417",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "FINANCEIRA EL CORTE INGLES PORT. SFC",
+			"departament_code": "000"
+		}]
+	}, {
+		"account_name": "EDITORIAL CENTRO ESTUDIOS RAMON ARECES",
+		"account_cif": "A78858560",
+		"account_code": "99024689",
+		"account_sector": null,
+		"account_ibex_35": null,
+		"departaments": [{
+			"departament_name": "EDITORIAL CENTRO ESTUDIOS RAMON AREC",
+			"departament_code": "000"
+		}]
+	}]
+},
+{
+"group_name": "REPSOL",
+"business_group_code": "6021",
+"accounts": [{
+	"account_name": "REPSOL RENOVABLES",
+	"account_cif": "G28459312",
+	"account_code": "99021234",
+	"account_sector": null,
+	"account_ibex_35": null,
+	"departaments": [{
+		"departament_name": "FOTOVOLTAICAS",
+		"departament_code": "017"
+	}, {
+		"departament_name": "MAREOMOTRIZ",
+		"departament_code": "015"
+	}, {
+		"departament_name": "EOLICA",
+		"departament_code": "183"
+		}]
+	}]
+}
+]

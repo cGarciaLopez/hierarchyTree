@@ -1,0 +1,1 @@
+url para consumir : https://extranet-dev.viajeselcorteingles.es/bi/empresas/api/listados/jerarquia/C66062CS
