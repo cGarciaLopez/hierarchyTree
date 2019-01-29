@@ -4,8 +4,26 @@ app.controller('appController', function ($scope, $http, dataResource) {
   $http.get('./mocks/c51239jk.json').then(function () {
 
     $scope.datosResource = dataResource.get();
-
+    // Objeto que almacena los identificadores de los elementos seleccionados
     $scope.selected = [];
+    $scope.clickedAccount =false;
+    
+    // Selecciona el (o los grupos completos)
+    // marca el checkbox
+    // deshabilita el checkbox
+    // añade el identificador a la caja de elementos seleccionados
+    $scope.checkAll = function(){
+      console.log($scope.datosResource)
+      $scope.datosResource.forEach(
+        function(element){
+          let _group = {};
+          _group.group_name = element.group_name;
+          _group.business_group_code = element.business_group_code;
+          $scope.selected.push(_group)
+        }
+      )
+      console.log($scope.selected)
+    }
 
     $scope.uncheckAll = function () {
       $scope.selected = [];

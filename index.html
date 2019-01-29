@@ -43,6 +43,9 @@
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
                                     <label class="dropdown-item">
+                                        <a ng-click="checkAll()">Seleccionar todo</a>
+                                    </label>
+                                    <label class="dropdown-item">
                                         <a ng-click="uncheckAll()">Deseleccionar todo</a>
                                     </label>
                                 </div>
@@ -100,12 +103,11 @@
                                                                                     <div>
                                                                                         <div class="btn btn-link" type="button" data-toggle="collapse" data-target="#department{{ $index }}" aria-expanded="false"
                                                                                             aria-controls="collapseTwo">
-                                                                                            <span ng-click="toggle2=!toggle2">
-                                                                                                    <i ng-show="toggle2" class="fas fa-minus mr-2"></i>
-                                                                                                    <i ng-hide="toggle2" class="fas fa-plus mr-2"></i>
+                                                                                            <span>
+                                                                                                <i  class="fas fa-angle-right mr-2"></i>
                                                                                                 {{ departament.departament_name }}
                                                                                                 <small class="ml-2">( {{ departament.departament_code
-                                                                                                    }} )</small>
+                                                                                                }} )   :-  {{ clickedAccount }}</small>
                                                                                             </span>
                                                                                         </div>
                                                                                         <input type="checkbox" id="{{departament.departament_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(departament.departament_code);"
@@ -148,7 +150,7 @@
 
                                                 <span id="group_name">{{ selectedData.group_name }}
                                                         <small>{{ selectedData.business_group_code }}</small></span>
-                                       
+
                                                         <span id="account_name">{{ selectedData.account_name }}
                                                                 <small>{{ selectedData.account_code }}</small></span>
 
