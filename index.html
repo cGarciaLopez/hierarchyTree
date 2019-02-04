@@ -26,7 +26,20 @@
                 <div class="col-md-12">
                     <h5 class="mt-4"> Selección inicial </h5>
                     <hr class="mt-4">
+
+                    <!-- DROPDOWN GRUPOS -->
+                    <div class="dropdown">
+                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                      id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Seleccionar Grupo {{ selectedGroup }}
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a ng-repeat="item in datosResource" class="dropdown-item" href="#" ng-click="selectGroup(item.group_name)">{{ item.group_name }}</a>
+                      </div>
+                    </div>
+
                 </div>
+
                 <!-- Shows the accordion and the data, app.js call to appController function -->
                 <div class="col-md-6">
                     <div class="row mt-2">
@@ -60,7 +73,8 @@
                         <div class="card">
                             <ul class="mt-3 pl-0">
                                 <!-- List all data from the mock and take the content from the specifies name -->
-                                <li ng-repeat="data in datosResource | filter: searchText" class="card-header">
+                                <!-- GRUPOS -->
+                                <li ng-repeat="data in datosResource | filter: searchText" class="card-header" ng-show="data.group_name == selectedGroup">
                                     <div>
                                         <div class="btn btn-link" type="button" data-toggle="collapse" href="#group_name{{ $index }}" aria-expanded="false">
                                             <span ng-click="toggle=!toggle">
@@ -72,7 +86,7 @@
                                         </div>
 
                                         <input type="checkbox" id="{{data.business_group_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(data, account, departament);"
-                                        ng-click="addSelection(data, account, departament); clickedAccount = !clickedAccount"/>
+                                        ng-click="addSelection(data, account, departament); clickedGroup = !clickedGroup"/>
                                         <br />
 
                                     </div>
@@ -81,6 +95,7 @@
                                             <div class="card">
                                                 <h5 class="mb-0">
                                                     <ul>
+                                                        <!-- CUENTAS -->
                                                         <li ng-repeat="account in data.accounts | filter: searchText" class="card-header bg-white">
                                                             <div>
                                                                 <div class="btn btn-link" type="button" data-toggle="collapse" data-target="#account{{$index}}" aria-expanded="false" aria-controls="collapseTwo">
@@ -92,7 +107,7 @@
                                                                     </span>
                                                                 </div>
                                                                 <input type="checkbox" id="{{account.account_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(account.account_code);"
-                                                                ng-click="addAccount(data, account); clickedDepartament = !clickedDepartament" ng-disabled="clickedAccount" />
+                                                                ng-click="addAccount(data, account); clickedAccount = !clickedAccount" ng-disabled="clickedGroup" />
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">
@@ -111,7 +126,7 @@
                                                                                             </span>
                                                                                         </div>
                                                                                         <input type="checkbox" id="{{departament.departament_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(departament.departament_code);"
-                                                                                        ng-click="addDepartament(departament);" ng-disabled="clickedAccount + clickedDepartament"/>
+                                                                                        ng-click="addDepartament(departament); clickedDepartament = !clickedDepartament" ng-disabled="clickedAccount"/>
                                                                                     </div>
                                                                                     <div id="department{{ $index }}" class="collapse">
                                                                                         <div class="card-body">

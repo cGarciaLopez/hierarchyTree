@@ -6,8 +6,14 @@ app.controller('appController', function ($scope, $http, dataResource) {
     $scope.datosResource = dataResource.get();
     // Objeto que almacena los identificadores de los elementos seleccionados
     $scope.selected = [];
+    $scope.selectedGroup = null;
+    $scope.clickedGroup = false;
     $scope.clickedAccount = false;
     $scope.clickedDepartament = false;
+
+    $scope.selectGroup = function (_group) {
+      $scope.selectedGroup = _group;
+    }
 
     // Selecciona el (o los grupos completos)
     // marca el checkbox

@@ -1,0 +1,884 @@
+[
+	{
+		"group_name": "COSENTINO",
+		"business_group_code": "7339",
+		"accounts": [{
+			"account_name": "COSENTINO S.A.",
+			"account_cif": "A04117297",
+			"account_code": "99351116",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COMERCIAL BARCELONA",
+				"departament_code": "006"
+			}, {
+				"departament_name": "TMK ALMACEN CANARIAS",
+				"departament_code": "206"
+			}, {
+				"departament_name": "ANDALUCIA-RESTO DE SEVILLA",
+				"departament_code": "123"
+			}, {
+				"departament_name": "TMK FILIAL FRANCIA",
+				"departament_code": "176"
+			}, {
+				"departament_name": "MUNICH MANAGER",
+				"departament_code": "112"
+			}, {
+				"departament_name": "DUSSELDORF PROMOTION",
+				"departament_code": "172"
+			}, {
+				"departament_name": "PRODUCTO E INNOVACION GASTOS",
+				"departament_code": "166"
+			}, {
+				"departament_name": "COMECIAL LATINOAMERICA",
+				"departament_code": "051"
+			}, {
+				"departament_name": "GENERAL CANTERAS Y MINERIA",
+				"departament_code": "178"
+			}, {
+				"departament_name": "L. AMERICA RESTO",
+				"departament_code": "103"
+			}, {
+				"departament_name": "RH VENECIA",
+				"departament_code": "122"
+			}, {
+				"departament_name": "PORTO PROMOTION",
+				"departament_code": "090"
+			}, {
+				"departament_name": "CALIDAD CLIENTES",
+				"departament_code": "151"
+			}, {
+				"departament_name": "ALMACEN SEVILLA",
+				"departament_code": "114"
+			}, {
+				"departament_name": "PORTO MANAGER",
+				"departament_code": "149"
+			}, {
+				"departament_name": "GENERAL ALMACEN VALENCIA",
+				"departament_code": "053"
+			}, {
+				"departament_name": "DESARROLLO SOFTWARE SAP",
+				"departament_code": "104"
+			}, {
+				"departament_name": "PROMOCION ALM SAN SEBASTIAN",
+				"departament_code": "087"
+			}, {
+				"departament_name": "CATTOLICA WAREHOUSE",
+				"departament_code": "187"
+			}, {
+				"departament_name": "GEST.MEDIOAMBIENTAL Y SERV.CENTRALES",
+				"departament_code": "059"
+			}, {
+				"departament_name": "ADMON ALM LEMONA",
+				"departament_code": "095"
+			}, {
+				"departament_name": "GENERAL PROMOTORES",
+				"departament_code": "038"
+			}, {
+				"departament_name": "OPORTO SUBSIDIARIA",
+				"departament_code": "186"
+			}, {
+				"departament_name": "TRANSPORTE GENERAL",
+				"departament_code": "083"
+			}, {
+				"departament_name": "COSENTINO S.A.",
+				"departament_code": "000"
+			}, {
+				"departament_name": "GOTEBORG GENERAL SUPPLIES",
+				"departament_code": "129"
+			}, {
+				"departament_name": "DIRECCION COMERCIAL IBERIA",
+				"departament_code": "144"
+			}, {
+				"departament_name": "GENERAL ALMACEN LA CORUñA",
+				"departament_code": "156"
+			}, {
+				"departament_name": "FUTURAMIA",
+				"departament_code": "135"
+			}, {
+				"departament_name": "AUDITORIA INTERNA",
+				"departament_code": "039"
+			}, {
+				"departament_name": "BRASIL SUBSIDIARIA-LATINA VITORIA",
+				"departament_code": "044"
+			}, {
+				"departament_name": "GRAL ALMACEN EXTREMADURA",
+				"departament_code": "077"
+			}, {
+				"departament_name": "REINO UNIDO",
+				"departament_code": "022"
+			}, {
+				"departament_name": "ALMACEN TOLEDO",
+				"departament_code": "055"
+			}, {
+				"departament_name": "GENERAL ALMACEN GERONA",
+				"departament_code": "023"
+			}, {
+				"departament_name": "SURISTER DEL ARROYO",
+				"departament_code": "064"
+			}, {
+				"departament_name": "MARKETING CHINA",
+				"departament_code": "145"
+			}, {
+				"departament_name": "COSENTINO ASTURIAS",
+				"departament_code": "078"
+			}, {
+				"departament_name": "GOTEBORG LOGISTICS",
+				"departament_code": "184"
+			}, {
+				"departament_name": "PADOVA MANAGER",
+				"departament_code": "119"
+			}, {
+				"departament_name": "GENERAL FUNDACION",
+				"departament_code": "152"
+			}, {
+				"departament_name": "ITALIA SUBSIDIARIAS",
+				"departament_code": "143"
+			}, {
+				"departament_name": "CANARIAS COMERCIAL",
+				"departament_code": "028"
+			}, {
+				"departament_name": "GENERAL ALMACEN GUIPUZCOA",
+				"departament_code": "027"
+			}, {
+				"departament_name": "PORTO COMERCIAL",
+				"departament_code": "128"
+			}, {
+				"departament_name": "COMERCIAL MANCHESTER",
+				"departament_code": "185"
+			}, {
+				"departament_name": "ADMINISTRACION PERSONAL",
+				"departament_code": "201"
+			}, {
+				"departament_name": "RECURSOS HUMANOS",
+				"departament_code": "002"
+			}, {
+				"departament_name": "ALMACEN BILBAO",
+				"departament_code": "091"
+			}, {
+				"departament_name": "USA",
+				"departament_code": "040"
+			}, {
+				"departament_name": "PARIS PROMOTION",
+				"departament_code": "158"
+			}, {
+				"departament_name": "INVESTIGACION Y OTORGAMIENTO",
+				"departament_code": "071"
+			}, {
+				"departament_name": "OPERACIONES",
+				"departament_code": "001"
+			}, {
+				"departament_name": "RELACIONES PUBLICAS GASTOS",
+				"departament_code": "101"
+			}, {
+				"departament_name": "GG.CC.ITALIA",
+				"departament_code": "171"
+			}, {
+				"departament_name": "TOULOUSSE GENERAL SUPPLIES",
+				"departament_code": "189"
+			}, {
+				"departament_name": "G.G.C.C. ESCANDINAVIA",
+				"departament_code": "169"
+			}, {
+				"departament_name": "PARIS  OFFICE",
+				"departament_code": "107"
+			}, {
+				"departament_name": "LISBOA MANAGER",
+				"departament_code": "142"
+			}, {
+				"departament_name": "CALIDAD PIEDRA NATURAL",
+				"departament_code": "203"
+			}, {
+				"departament_name": "TMK ALMACEN EXTREMADURA",
+				"departament_code": "164"
+			}, {
+				"departament_name": "MARKETING SUIZA",
+				"departament_code": "139"
+			}, {
+				"departament_name": "AJUSTES CONTABLES",
+				"departament_code": "125"
+			}, {
+				"departament_name": "I+D+I",
+				"departament_code": "047"
+			}, {
+				"departament_name": "HQ GENERAL HOLLAND",
+				"departament_code": "113"
+			}, {
+				"departament_name": "ADMINISTRACIóN SAN SEBASTIAN",
+				"departament_code": "148"
+			}, {
+				"departament_name": "AUTOMATICA",
+				"departament_code": "093"
+			}, {
+				"departament_name": "LISBOA SUBSIDIARIA",
+				"departament_code": "180"
+			}, {
+				"departament_name": "PROMOCION ALMACEN GRANADA",
+				"departament_code": "146"
+			}, {
+				"departament_name": "COMERCIAL SANTANDER",
+				"departament_code": "188"
+			}, {
+				"departament_name": "TMK BARCELONA",
+				"departament_code": "159"
+			}, {
+				"departament_name": "ESTRUCTURA CALIDAD",
+				"departament_code": "163"
+			}, {
+				"departament_name": "GENERAL FABRICA ELABORADO",
+				"departament_code": "131"
+			}, {
+				"departament_name": "LYON GENERAL SUPP",
+				"departament_code": "200"
+			}, {
+				"departament_name": "ALMACEN VIZCAYA",
+				"departament_code": "054"
+			}, {
+				"departament_name": "RH BRASIL",
+				"departament_code": "198"
+			}, {
+				"departament_name": "UNIDAD DE GESTION I+D+I",
+				"departament_code": "003"
+			}, {
+				"departament_name": "FISCAL",
+				"departament_code": "041"
+			}, {
+				"departament_name": "DPTO DE CALIDAD",
+				"departament_code": "021"
+			}, {
+				"departament_name": "ALGARVE PROMOTION",
+				"departament_code": "089"
+			}, {
+				"departament_name": "COMERCIAL PORTUGAL",
+				"departament_code": "005"
+			}, {
+				"departament_name": "MARKETIN GENERAL EUROPA",
+				"departament_code": "183"
+			}, {
+				"departament_name": "PROMOCION BARCELONA",
+				"departament_code": "194"
+			}, {
+				"departament_name": "COMPRA DE SUMINISTROS GENERALES",
+				"departament_code": "199"
+			}, {
+				"departament_name": "GERENTE ALMACEN GRANADA",
+				"departament_code": "193"
+			}, {
+				"departament_name": "CONSTRUCCION INGENIERIA Y PROYECTO",
+				"departament_code": "042"
+			}, {
+				"departament_name": "EXPANSION",
+				"departament_code": "019"
+			}, {
+				"departament_name": "PROMOCIONAL TIENDAS GASTOS",
+				"departament_code": "124"
+			}, {
+				"departament_name": "RESTO TARJETA",
+				"departament_code": "209"
+			}, {
+				"departament_name": "NANTES MANAGER",
+				"departament_code": "174"
+			}, {
+				"departament_name": "BERLIN GENERAL SUPPLIES",
+				"departament_code": "120"
+			}, {
+				"departament_name": "COMERCIAL OCEANIA AFRICA",
+				"departament_code": "058"
+			}, {
+				"departament_name": "COMERCIAL BELGICA",
+				"departament_code": "160"
+			}, {
+				"departament_name": "CALIDAD PROVEEDORES",
+				"departament_code": "197"
+			}, {
+				"departament_name": "CANTERAS Y MINERIA",
+				"departament_code": "202"
+			}, {
+				"departament_name": "PRESIDENCIA",
+				"departament_code": "011"
+			}, {
+				"departament_name": "ADMINISTRACION ALMERIA",
+				"departament_code": "132"
+			}, {
+				"departament_name": "TMK ALMACEN ZARAGOZA",
+				"departament_code": "190"
+			}, {
+				"departament_name": "PREVENCION DE RIESGOS LABORALES",
+				"departament_code": "099"
+			}, {
+				"departament_name": "GENERAL ALMACEN SANTANDER",
+				"departament_code": "057"
+			}, {
+				"departament_name": "GENERAL SILESTONE",
+				"departament_code": "029"
+			}, {
+				"departament_name": "ADMON SISTEMAS SOPORTE SEGURIDAD DES",
+				"departament_code": "092"
+			}, {
+				"departament_name": "COMERCIAL ALMACEN GRANADA",
+				"departament_code": "157"
+			}, {
+				"departament_name": "TMK FILIAL SUECIA",
+				"departament_code": "155"
+			}, {
+				"departament_name": "COMERCIAL ALMACEN GRANADA",
+				"departament_code": "154"
+			}, {
+				"departament_name": "VISA COSENTINO",
+				"departament_code": "016"
+			}, {
+				"departament_name": "PLANIFICACION ESTRATEGICA",
+				"departament_code": "034"
+			}, {
+				"departament_name": "PARIS MANAGER",
+				"departament_code": "147"
+			}, {
+				"departament_name": "ALMACEN MURCIA",
+				"departament_code": "056"
+			}, {
+				"departament_name": "STAFF",
+				"departament_code": "115"
+			}, {
+				"departament_name": "GG:CC:FRANCIA",
+				"departament_code": "182"
+			}, {
+				"departament_name": "MARKETING SUECIA",
+				"departament_code": "173"
+			}, {
+				"departament_name": "SERVICIO DE ATENCION AL CLIENTE",
+				"departament_code": "043"
+			}, {
+				"departament_name": "ALMACEN GENERAL LA CORUñA",
+				"departament_code": "017"
+			}, {
+				"departament_name": "COMERCIAL ZARAGOZA",
+				"departament_code": "153"
+			}, {
+				"departament_name": "COMPRAS Y SUMINISTROS",
+				"departament_code": "052"
+			}, {
+				"departament_name": "PROM. CANAL PROYECTISTAS ACCIONES",
+				"departament_code": "102"
+			}, {
+				"departament_name": "COMERCIAL ALMACEN MEXICO",
+				"departament_code": "191"
+			}, {
+				"departament_name": "ALMACEN MADRID",
+				"departament_code": "179"
+			}, {
+				"departament_name": "VIENA COMMERCIAL",
+				"departament_code": "205"
+			}, {
+				"departament_name": "PLANIFICACION COMERCIAL",
+				"departament_code": "032"
+			}, {
+				"departament_name": "GENERAL ALMACEN SANTANDER",
+				"departament_code": "048"
+			}, {
+				"departament_name": "MARKETING  ALEMANIA",
+				"departament_code": "138"
+			}, {
+				"departament_name": "COMERCIAL VIGO",
+				"departament_code": "046"
+			}, {
+				"departament_name": "COMPRA PIEDRA NATURAL",
+				"departament_code": "084"
+			}, {
+				"departament_name": "CALIDAD SILESTONE III",
+				"departament_code": "106"
+			}, {
+				"departament_name": "GERENTE ALMACEN SANTANDER",
+				"departament_code": "204"
+			}, {
+				"departament_name": "ALGARVE COMERCIAL",
+				"departament_code": "126"
+			}, {
+				"departament_name": "LYON OFFICE",
+				"departament_code": "100"
+			}, {
+				"departament_name": "CALIDAD ELABORADO SILESTONE",
+				"departament_code": "116"
+			}, {
+				"departament_name": "COMERCIAL ASIA ORIENTAL",
+				"departament_code": "049"
+			}, {
+				"departament_name": "FERIA CORPORATIVA",
+				"departament_code": "110"
+			}, {
+				"departament_name": "GENERAL ALMACEN ALMERIA",
+				"departament_code": "065"
+			}, {
+				"departament_name": "LISBOA COMERCIAL",
+				"departament_code": "127"
+			}, {
+				"departament_name": "IMPLANTACION SAP BRASIL",
+				"departament_code": "150"
+			}, {
+				"departament_name": "OP. FABRICAS DE MARMOL",
+				"departament_code": "060"
+			}, {
+				"departament_name": "GGCC BELGICA",
+				"departament_code": "161"
+			}, {
+				"departament_name": "MUNICH PROMOTION",
+				"departament_code": "085"
+			}, {
+				"departament_name": "NANTES OFFICE",
+				"departament_code": "196"
+			}, {
+				"departament_name": "MUNICH OFFICE",
+				"departament_code": "080"
+			}, {
+				"departament_name": "COMERCIAL MADRID",
+				"departament_code": "007"
+			}, {
+				"departament_name": "MARKETING PORTUGAL",
+				"departament_code": "167"
+			}, {
+				"departament_name": "FUERZA DE VENTAS",
+				"departament_code": "012"
+			}, {
+				"departament_name": "AREA JURIDICA",
+				"departament_code": "062"
+			}, {
+				"departament_name": "ALMACEN VIGO",
+				"departament_code": "033"
+			}, {
+				"departament_name": "COMERCIAL EUROPA (SIN PORTUGAL)",
+				"departament_code": "024"
+			}, {
+				"departament_name": "FABRICA FREGADEROS",
+				"departament_code": "117"
+			}, {
+				"departament_name": "PORTO MANAGER",
+				"departament_code": "192"
+			}, {
+				"departament_name": "COMERCIAL ORIENTE MEDIO",
+				"departament_code": "074"
+			}, {
+				"departament_name": "EEUU C&C Y SUBSIDIARIAS",
+				"departament_code": "035"
+			}, {
+				"departament_name": "PRODUCTO E INNIVACION GASTOS",
+				"departament_code": "098"
+			}, {
+				"departament_name": "SISTEMAS Y PROCESOS",
+				"departament_code": "025"
+			}, {
+				"departament_name": "INFRAES.REDES Y COMUNICACIONES",
+				"departament_code": "094"
+			}, {
+				"departament_name": "CONSTRUCCIÓN E INGENIERÍA",
+				"departament_code": "037"
+			}, {
+				"departament_name": "ANDALUCIA CADIZ DISTRIBUIDORES",
+				"departament_code": "086"
+			}, {
+				"departament_name": "MARKETING FRANCE",
+				"departament_code": "141"
+			}, {
+				"departament_name": "ANDALUCIA COMERCIAL",
+				"departament_code": "061"
+			}, {
+				"departament_name": "GGCC. HOLLAND",
+				"departament_code": "165"
+			}, {
+				"departament_name": "CALIDAD CLIENTES",
+				"departament_code": "195"
+			}, {
+				"departament_name": "ADMINISTRACION COMERCIAL",
+				"departament_code": "018"
+			}, {
+				"departament_name": "SERVICIOS CENTRALES",
+				"departament_code": "177"
+			}, {
+				"departament_name": "DIRECCION COMERCIAL",
+				"departament_code": "105"
+			}, {
+				"departament_name": "COMERCIAL EUROPA ESTE",
+				"departament_code": "013"
+			}, {
+				"departament_name": "CONTROL DE GESTION",
+				"departament_code": "008"
+			}, {
+				"departament_name": "GRAL ALMACEN VALLADOLID",
+				"departament_code": "072"
+			}, {
+				"departament_name": "MARKETING USA",
+				"departament_code": "097"
+			}, {
+				"departament_name": "GRAL INVESTIGACION Y OTORGAMIENTO",
+				"departament_code": "068"
+			}, {
+				"departament_name": "LISBOA PROMOTION",
+				"departament_code": "130"
+			}, {
+				"departament_name": "GG.CC.CUK",
+				"departament_code": "162"
+			}, {
+				"departament_name": "COMPRA DE MATERIAS PRIMAS",
+				"departament_code": "020"
+			}, {
+				"departament_name": "ALMACEN CASTILLA TOLEDO",
+				"departament_code": "134"
+			}, {
+				"departament_name": "DINERS CONCILIADA",
+				"departament_code": "015"
+			}, {
+				"departament_name": "ANDALUCIA GRANADA DISTRIBUIDORES",
+				"departament_code": "136"
+			}, {
+				"departament_name": "SUBDIRECCION GENERAL AREO ECOFIN",
+				"departament_code": "031"
+			}, {
+				"departament_name": "PROYECTOS",
+				"departament_code": "075"
+			}, {
+				"departament_name": "MARKETING UK",
+				"departament_code": "140"
+			}, {
+				"departament_name": "G.G.C.C. SWISS",
+				"departament_code": "168"
+			}, {
+				"departament_name": "ATENCION AL CLIENTE",
+				"departament_code": "073"
+			}, {
+				"departament_name": "COMERCIAL EUROPA MEDITERRANEO",
+				"departament_code": "207"
+			}, {
+				"departament_name": "TMK ALMACEN VIGO",
+				"departament_code": "181"
+			}, {
+				"departament_name": "MARKETING",
+				"departament_code": "010"
+			}, {
+				"departament_name": "GRAL ALMACEN CASTELLON",
+				"departament_code": "082"
+			}, {
+				"departament_name": "SUECIA",
+				"departament_code": "045"
+			}, {
+				"departament_name": "MARKETING ITALIA",
+				"departament_code": "111"
+			}, {
+				"departament_name": "COSENTINO BELGICA",
+				"departament_code": "063"
+			}, {
+				"departament_name": "APERTURA DE ALMACENES",
+				"departament_code": "066"
+			}, {
+				"departament_name": "SUB. GRAL AUDITORIA Y PROCESOS",
+				"departament_code": "109"
+			}, {
+				"departament_name": "GENERAL ALMAC TARRAGONA",
+				"departament_code": "069"
+			}, {
+				"departament_name": "PROMOCION CANAL TIENDAS ACCIONES",
+				"departament_code": "088"
+			}, {
+				"departament_name": "TESORERIA",
+				"departament_code": "050"
+			}, {
+				"departament_name": "MARKETING CASTELLON",
+				"departament_code": "208"
+			}, {
+				"departament_name": "COMERCIAL ASIA OCCIDENTAL",
+				"departament_code": "076"
+			}, {
+				"departament_name": "MARKETING DINAMARCA",
+				"departament_code": "121"
+			}, {
+				"departament_name": "COMERCIAL MARKETING BRUSSELS",
+				"departament_code": "096"
+			}, {
+				"departament_name": "PROMOCION Y PRESCRIPCION",
+				"departament_code": "070"
+			}, {
+				"departament_name": "GRUPOS",
+				"departament_code": "036"
+			}, {
+				"departament_name": "GRAL ALMACEN ZARAGOZA",
+				"departament_code": "067"
+			}, {
+				"departament_name": "GENERAL ITALIA",
+				"departament_code": "081"
+			}, {
+				"departament_name": "GENERAL U.SERVICIOS COMERCIALES",
+				"departament_code": "014"
+			}, {
+				"departament_name": "RESTAURANTE TEJERA",
+				"departament_code": "108"
+			}, {
+				"departament_name": "Z MANAGER",
+				"departament_code": "118"
+			}, {
+				"departament_name": "ADMINISTRACION Y FINANZAS",
+				"departament_code": "009"
+			}, {
+				"departament_name": "GG.CC DEUTSCHLAND",
+				"departament_code": "170"
+			}, {
+				"departament_name": "GRANDES CUENTAS",
+				"departament_code": "133"
+			}, {
+				"departament_name": "GOTEBORG OFFICE",
+				"departament_code": "137"
+			}, {
+				"departament_name": "PLANIFICACION ESTRATEGICA",
+				"departament_code": "026"
+			}, {
+				"departament_name": "OFICINA TECNICA",
+				"departament_code": "079"
+			}, {
+				"departament_name": "COSENTINO SERVICIOS DIRECTOS",
+				"departament_code": "030"
+			}, {
+				"departament_name": "COMPENSACION Y BENEFICIOS",
+				"departament_code": "175"
+			}, {
+				"departament_name": "SISTEMAS DE FORMACION",
+				"departament_code": "004"
+			}]
+		}, {
+			"account_name": "COSENTINO IRELAND LIMITED",
+			"account_cif": "IE9731457E",
+			"account_code": "99656423",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO IRELAND LIMITED",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO THE NETHERLANDS B.V.",
+			"account_cif": "NL811341835B01",
+			"account_code": "99656324",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO THE NETHERLANDS B.V.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "VIGIA DEL VALLE S.L.",
+			"account_cif": "B04475810",
+			"account_code": "99679789",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "VIGIA DEL VALLE S.L.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO AUSTRIA GMBH",
+			"account_cif": "ATU65080011",
+			"account_code": "99656399",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO AUSTRIA GMBH",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO SWISS A.G.",
+			"account_cif": "CHE113814308",
+			"account_code": "99656431",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO SWISS A.G.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO PORTO-MARM GRA E AFINS, OPORTO",
+			"account_cif": "PT503967270",
+			"account_code": "99656407",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO PORTO-MARM GRA E AFINS, OP",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO DENMARK APS",
+			"account_cif": "DK37276839",
+			"account_code": "99827347",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO DENMARK APS",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO POLAND SP.Z.O.O",
+			"account_cif": "PL5252688843",
+			"account_code": "99881161",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO POLAND SP.Z.O.O",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "STONE SERVICES OF FRANCE SARL",
+			"account_cif": "FR25503600595",
+			"account_code": "99656381",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "STONE SERVICES OF FRANCE SARL",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO U.K. LTD",
+			"account_cif": "GB799494148",
+			"account_code": "99656340",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO U.K. LTD",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO PORTUGAL UNI LDA",
+			"account_cif": "PT507819241",
+			"account_code": "99656415",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO PORTUGAL UNI LDA",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO NORWAY AS",
+			"account_cif": "NO898197042",
+			"account_code": "99760464",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO NORWAY AS",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO MILANO S.R.L.",
+			"account_cif": "IT07363200960",
+			"account_code": "99881179",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO MILANO S.R.L.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO TURKEY YAPI ITHALAT TIC LTD",
+			"account_cif": "TR2120465902",
+			"account_code": "99881153",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO TURKEY YAPI ITHALAT TIC LT",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "SURISTER DEL ARROYO S.L.",
+			"account_cif": "B04333076",
+			"account_code": "99593170",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "SURISTER DEL ARROYO S.L.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO AUSTRALIA PTY LIMITED",
+			"account_cif": "AU66150158277",
+			"account_code": "99746208",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO AUSTRALIA PTY LIMITED",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "FUNDACION EDUARDA JUSTO",
+			"account_cif": "G04581500",
+			"account_code": "99594764",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "FUNDACION EDUARDA JUSTO",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO DEUTSCHLAND GMBH",
+			"account_cif": "DE208083799",
+			"account_code": "99656332",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO DEUTSCHLAND GMBH",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO BELGIUM SPRL",
+			"account_cif": "BE0894579629",
+			"account_code": "99656373",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO BELGIUM SPRL",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO FINLAND",
+			"account_cif": "FI27159417",
+			"account_code": "99827339",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO FINLAND",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO CENTER ISRAEL LTD",
+			"account_cif": "IL515103406",
+			"account_code": "99788580",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO CENTER ISRAEL LTD",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO RESEARCH AND DEVELOPMENT S.L.",
+			"account_cif": "B04714093",
+			"account_code": "99704991",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO RESEARCH AND DEVELOPMENT S",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO ITALIA SRL.",
+			"account_cif": "IT02291090286",
+			"account_code": "99656357",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO ITALIA SRL.",
+				"departament_code": "000"
+			}]
+		}, {
+			"account_name": "COSENTINO SCANDINAVIA",
+			"account_cif": "SE556700491501",
+			"account_code": "99656365",
+			"account_sector": "Industria y Automoción",
+			"account_ibex_35": "N",
+			"departaments": [{
+				"departament_name": "COSENTINO SCANDINAVIA",
+				"departament_code": "000"
+			}]
+		}]
+		}
+]
