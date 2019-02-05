@@ -43,7 +43,7 @@ a {
 }
 
 
-/****** Check Inpiut ****/ 
+/****** Check Inpiut ****/
 .form-check-input {
     position: relative;
     margin-top: .7rem;
@@ -144,4 +144,11 @@ a {
     flex: 1 1 auto;
     padding: 0.5rem 0.5rem!important;
 
+}
+
+.carousel-item {
+  background-color: #ede7e7;
+  transition:  ease-in-out;
+  transition-duration: 40s;
+  /* transition-delay: 20s; */
 }

@@ -16,8 +16,8 @@ app.controller('appController', function ($scope, $http, dataResource) {
     }
 
     // Selecciona el (o los grupos completos)
-    // marca el checkbox
-    // deshabilita el checkbox
+    // marca los checkboxes del arbol
+    // deshabilita los checkboxes
     // añade el identificador a la caja de elementos seleccionados
     $scope.checkAll = function(){
       console.log($scope.datosResource)
@@ -51,21 +51,36 @@ app.controller('appController', function ($scope, $http, dataResource) {
       }
     }
 
+    // Se añade una cuenta.
+    // Se pasan todos los departamentos al panel de seleccion.
+    // Se deshabilitan los checkboxes de los departamentos (NO de la cuenta)
+    // Se añaden SOLO los departamentos a la variable de entorno (selected)
+
     $scope.addAccount = function (data, account) {
       console.log("addAccount");
-      // DOING: comprobar si alguno de los departamentos (account.departaments) está seleccionado ($scope.selected)
-      $scope.deleteDepartments(account.departaments)
+      // DOING : añadir los departamentos de la cuenta, y seleccionarlos
+      account.departaments.forEach(
+        function(dept){
+          console.log(dept.departament_name)
 
-      var idaccount = $scope.selected.indexOf(account);
-      if (idaccount > -1) {
-        $scope.selected.splice(idaccount, 1);
-      } else {
-        $scope.selected.push(account);
-      }
+          var idDept = $scope.selected.indexOf(dept);
+          if (idDept > -1) {
+            $scope.selected.splice(idDept, 1);
+          } else {
+            $scope.selected.push(dept);
+          }
+        })
+      // var idaccount = $scope.selected.indexOf(account);
+      // if (idaccount > -1) {
+      //   $scope.selected.splice(idaccount, 1);
+      // } else {
+      //   $scope.selected.push(account);
+      // }
     }
 
     $scope.addDepartament = function (departament) {
       console.log("addDepartament");
+      console.log("clickedDepartament " + $scope.clickedDepartament)
       iddepartament = $scope.selected.indexOf(departament);
       if (iddepartament > -1) {
         $scope.selected.splice(iddepartament, 1);
@@ -82,6 +97,11 @@ app.controller('appController', function ($scope, $http, dataResource) {
                 $scope.selected.splice( $scope.selected.indexOf(_dept),1 )
               }
           });
+    }
+    // Se invoca desde el listado de elementos seleccionados
+    $scope.deleteSelected = function(_item){
+      document.getElementById(_item.departament_name + _item.departament_code).disabled=false;
+      document.getElementById(_item.departament_name + _item.departament_code).click()
     }
 
   });

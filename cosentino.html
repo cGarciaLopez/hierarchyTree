@@ -22,6 +22,26 @@
 
         <div class="container">
             <h2 class="mt-4 mb-4">VICE Report</h2>
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <span>Ejemplo de una empresa con un sólo grupo. </span>
+                </div>
+                <div class="carousel-item">
+                  <span>La carga del arbol es completa, y se almacena en memoria</span>
+                </div>
+                <div class="carousel-item">
+                  <span>Se implementa la posibilidad de deseleccionar cuentas y departamentos por separado</span>
+                </div>
+                <div class="carousel-item">
+                  <span>'Seleccionar Todos' marca todos los checkboxes del árbol y traslada cada item al area de selección</span>
+                </div>
+
+              </div>
+            </div>
+
             <div class="row bg-white">
                 <div class="col-md-12">
                     <h5 class="mt-4"> Selección inicial </h5>
@@ -50,8 +70,6 @@
                                     </label>
                                 </div>
                             </div>
-
-
 
                         </div>
                     </div>
@@ -92,7 +110,7 @@
                                                                     </span>
                                                                 </div>
                                                                 <input type="checkbox" id="{{account.account_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(account.account_code);"
-                                                                ng-click="addAccount(data, account); clickedAccount = !clickedAccount" ng-disabled="clickedGroup" />
+                                                                ng-click="clickedAccount = (!clickedAccount); addAccount(data, account);"/>
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">
@@ -110,8 +128,8 @@
                                                                                                 }} ) :-p  {{ clickedAccount }} {{ clickedDepartament }}</small>
                                                                                             </span>
                                                                                         </div>
-                                                                                        <input type="checkbox" id="{{departament.departament_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(departament.departament_code);"
-                                                                                        ng-click="addDepartament(departament); clickedDepartament = !clickedDepartament" ng-disabled="clickedAccount"/>
+                                                                                        <input type="checkbox" id="{{departament.departament_name}}{{departament.departament_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(departament.departament_code);"
+                                                                                        ng-click="clickedDepartament = (!clickedDepartament) ; addDepartament(departament)"  ng-disabled=" clickedAccount "/>
                                                                                     </div>
                                                                                     <div id="department{{ $index }}" class="collapse">
                                                                                         <div class="card-body">
@@ -148,15 +166,21 @@
                                         <div>
                                             <div class="btn pl-3">
 
-                                                <span id="group_name">{{ selectedData.group_name }}
-                                                        <small>{{ selectedData.business_group_code }}</small></span>
+                                                <span id="{{selectedData.group_code}}">{{ selectedData.group_name }}
+                                                  <small>{{ selectedData.business_group_code }}</small>
+                                                </span>
 
-                                                        <span id="account_name">{{ selectedData.account_name }}
-                                                                <small>{{ selectedData.account_code }}</small></span>
+                                                <span id="{{selectedData.account_code}}">{{ selectedData.account_name }}
+                                                  <small>{{ selectedData.account_code }}</small>
+                                                </span>
 
-                                                                <span id="departament_name">{{ selectedData.departament_name }}
-                                                                        <small>{{ selectedData.departament_code }}</small></span>
-                                                        </div>
+                                                <span id="{{selectedData.departament_code}}">{{ selectedData.departament_name }}
+                                                  <small>{{ selectedData.departament_code }}</small>
+                                                </span>
+                                                </div>
+
+                                                <button type="button" class="btn btn-outline-secondary float-right" ng-click="deleteSelected(selectedData)">X</button>
+
                                             </div>
                                     </li>
                                 </ul>
@@ -165,8 +189,8 @@
                         </div>
                     </div>
                 </div>
-                <p> {{ selected }}</p>
             </div>
+            <p> {{ selected }}</p>
         </div>
     </div>
     </div>
