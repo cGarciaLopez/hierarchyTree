@@ -90,7 +90,7 @@
                                         </div>
 
                                         <input type="checkbox" id="{{data.business_group_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(data, account, departament);"
-                                        ng-click="addSelection(data, account, departament); clickedGroup = !clickedGroup"/>
+                                        ng-click="addGroup(data, account, departament); clickedGroup = !clickedGroup"/>
                                         <br />
 
                                     </div>
@@ -110,7 +110,7 @@
                                                                     </span>
                                                                 </div>
                                                                 <input type="checkbox" id="{{account.account_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(account.account_code);"
-                                                                ng-click="clickedAccount = (!clickedAccount);addAccount(data, account, clickedAccount);"/>
+                                                                ng-click="clickedAccount = (!clickedAccount);selectAccount(data, account, clickedAccount);"/>
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">
@@ -179,7 +179,8 @@
                                                 </span>
                                                 </div>
 
-                                                <button type="button" class="btn btn-outline-secondary float-right" ng-click="deleteSelected(selectedData)">X</button>
+                                                <button type="button" ng-show="selectedData.group_name" class="btn btn-outline-secondary float-left" ng-click="delSelectedGroup(selectedData)">X GRUPO</button>
+                                                <button type="button" ng-show="selectedData.departament_name" class="btn btn-outline-secondary float-left" ng-click="delSelectedDept(selectedData)">X DEPARTAMENTO</button>
 
                                             </div>
                                     </li>
@@ -190,7 +191,14 @@
                     </div>
                 </div>
             </div>
-            <p> {{ selected }}</p>
+
+            <div>
+            </br>
+            <p> {{ selectedGroup }}</p>
+            </br>
+              <p> {{ selected }}</p>
+            </div>
+
         </div>
     </div>
     </div>

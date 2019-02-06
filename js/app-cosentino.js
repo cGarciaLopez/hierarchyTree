@@ -3,6 +3,17 @@ var app = angular.module('app', ['ngResource']);
 app.controller('appController', function ($scope, $http, dataResource) {
   $http.get('./mocks/c51239jk.json').then(function () {
 
+
+     // TODO:
+     //    BUSCAR
+        // ¡ Revisarrrr!
+     //    SELECCIONAR TODO
+            // Selecciona todas las cuentas, pasando solo la raiz de la cuenta, no los departamentos.
+     //    DESELECCIONAR TODO
+            // Facil, borra todo!
+     //    SELECCIONAR EL GRUPO ENTERO
+
+
     $scope.datosResource = dataResource.get();
     // Objeto que almacena los identificadores de los elementos seleccionados
     $scope.selected = [];
@@ -47,24 +58,27 @@ app.controller('appController', function ($scope, $http, dataResource) {
         return $scope.selected.indexOf(data , account, department) > -1;
       }
     }
-
-    $scope.addSelection = function (data) {
-      console.log("addSelection");
-      var iddata = $scope.selected.indexOf(data);
+    // Selección por el usuario de un grupo
+    $scope.addGroup = function (data) {
+      console.log("addGroup");
+      let iddata = $scope.selected.indexOf(data);
       if (iddata > -1) {
         $scope.selected.splice(iddata, 1);
-        $scope.removeAccount();
+        // $scope.removeAccount();
       } else {
-        $scope.selected.push(data);
+        let _group = {};
+        _group.group_name=data.group_name;
+        _group.business_group_code=data.business_group_code;
+        $scope.selected.push(_group);
       }
     }
 
-    // Se añade una cuenta.
+    // El usuario ha seleccionado una cuenta.
     // Se pasan todos los departamentos al panel de seleccion.
     // Se deshabilitan los checkboxes de los departamentos (NO de la cuenta)
     // Se añaden SOLO los departamentos a la variable de entorno (selected)
-    $scope.addAccount = function (data, account, selecc) {
-      console.log("addAccount, cuenta seleccionada: " + selecc);
+    $scope.selectAccount = function (data, account, selecc) {
+      console.log("selectAccount, cuenta seleccionada: " + selecc);
       // CASO 1: seleccion de la cuenta
       //   caso 1.1: existe el departamento iterado. Se salta a la siguiente iteración
       //   caso 1.2: NO existe el departamento seleccionado. Se añade el departamento
@@ -73,7 +87,7 @@ app.controller('appController', function ($scope, $http, dataResource) {
       account.departaments.forEach(
         function(dept){
           console.log(dept.departament_name)
-          var idDept = $scope.selected.indexOf(dept);
+          let idDept = $scope.selected.indexOf(dept);
           if(selecc){
             // caso 1.2
             if(idDept == -1){
@@ -108,7 +122,7 @@ app.controller('appController', function ($scope, $http, dataResource) {
     }
 
     // Se invoca desde el listado de elementos seleccionados
-    $scope.deleteSelected = function(department){
+    $scope.delSelectedDept = function(department) {
       let oDept = document.getElementById(department.departament_name + department.departament_code);
       oDept.disabled=false;
       oDept.click()
@@ -125,7 +139,7 @@ app.controller('appController', function ($scope, $http, dataResource) {
       if(!_deptChecked){
         document.getElementById(oDept.name).checked=false;
       }
-    } //deleteSelected
+    } //delSelectedDept
 
 
 

@@ -86,7 +86,7 @@
                                         </div>
 
                                         <input type="checkbox" id="{{data.business_group_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(data, account, departament);"
-                                        ng-click="addSelection(data, account, departament); clickedGroup = !clickedGroup"/>
+                                        ng-click="addGroup(data, account, departament); clickedGroup = !clickedGroup"/>
                                         <br />
 
                                     </div>
@@ -107,7 +107,7 @@
                                                                     </span>
                                                                 </div>
                                                                 <input type="checkbox" id="{{account.account_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(account.account_code);"
-                                                                ng-click="addAccount(data, account); clickedAccount = !clickedAccount" ng-disabled="clickedGroup" />
+                                                                ng-click="selectAccount(data, account); clickedAccount = !clickedAccount" ng-disabled="clickedGroup" />
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">

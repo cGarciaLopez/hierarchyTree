@@ -40,8 +40,8 @@ app.controller('appController', function ($scope, $http, dataResource) {
       return $scope.selected.indexOf(data , account, departament) > -1;
     }
 
-    $scope.addSelection = function (data) {
-      console.log("addSelection");
+    $scope.addGroup = function (data) {
+      console.log("addGroup");
       var iddata = $scope.selected.indexOf(data);
       if (iddata > -1) {
         $scope.selected.splice(iddata, 1);
@@ -51,8 +51,8 @@ app.controller('appController', function ($scope, $http, dataResource) {
       }
     }
 
-    $scope.addAccount = function (data, account) {
-      console.log("addAccount");
+    $scope.selectAccount = function (data, account) {
+      console.log("selectAccount");
       // DOING: comprobar si alguno de los departamentos (account.departaments) está seleccionado ($scope.selected)
       $scope.deleteDepartments(account.departaments)
 
