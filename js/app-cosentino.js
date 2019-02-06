@@ -108,10 +108,26 @@ app.controller('appController', function ($scope, $http, dataResource) {
     }
 
     // Se invoca desde el listado de elementos seleccionados
-    $scope.deleteSelected = function(_item){
-      document.getElementById(_item.departament_name + _item.departament_code).disabled=false;
-      document.getElementById(_item.departament_name + _item.departament_code).click()
-    }
+    $scope.deleteSelected = function(department){
+      let oDept = document.getElementById(department.departament_name + department.departament_code);
+      oDept.disabled=false;
+      oDept.click()
+
+      // Compruebo que hay departamentos de la cuenta seleccionados, de lo contrario hay que deschequear la cuenta.
+      let _deptChecked = false;
+      let aDepts = document.getElementsByName(oDept.name);
+      for(var i=0; i < aDepts.length; i++){
+        if(aDepts[i].checked){
+          _deptChecked = true;
+          break;
+        }
+      }
+      if(!_deptChecked){
+        document.getElementById(oDept.name).checked=false;
+      }
+    } //deleteSelected
+
+
 
   });
 
