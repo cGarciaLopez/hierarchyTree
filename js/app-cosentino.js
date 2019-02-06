@@ -39,6 +39,14 @@ app.controller('appController', function ($scope, $http, dataResource) {
     $scope.exist = function (data, account, departament) {
       return $scope.selected.indexOf(data , account, departament) > -1;
     }
+    $scope.existe = function (data, account, department) {
+      if(department !== undefined){
+        if($scope.selected.indexOf(data , account, department) > -1){
+          console.log(department);
+        }
+        return $scope.selected.indexOf(data , account, department) > -1;
+      }
+    }
 
     $scope.addSelection = function (data) {
       console.log("addSelection");
@@ -55,49 +63,50 @@ app.controller('appController', function ($scope, $http, dataResource) {
     // Se pasan todos los departamentos al panel de seleccion.
     // Se deshabilitan los checkboxes de los departamentos (NO de la cuenta)
     // Se añaden SOLO los departamentos a la variable de entorno (selected)
-
-    $scope.addAccount = function (data, account) {
-      console.log("addAccount");
-      // DOING : añadir los departamentos de la cuenta, y seleccionarlos
+    $scope.addAccount = function (data, account, selecc) {
+      console.log("addAccount, cuenta seleccionada: " + selecc);
+      // CASO 1: seleccion de la cuenta
+      //   caso 1.1: existe el departamento iterado. Se salta a la siguiente iteración
+      //   caso 1.2: NO existe el departamento seleccionado. Se añade el departamento
+      // CASO 2: deseleccion de la cuenta
+      //   caso 2.1  si existen departamentos, se eliminan.
       account.departaments.forEach(
         function(dept){
           console.log(dept.departament_name)
-
           var idDept = $scope.selected.indexOf(dept);
-          if (idDept > -1) {
-            $scope.selected.splice(idDept, 1);
-          } else {
-            $scope.selected.push(dept);
+          if(selecc){
+            // caso 1.2
+            if(idDept == -1){
+              $scope.selected.push(dept);
+              // $scope.clickedDepartament = true;
+              document.getElementById(dept.departament_name + dept.departament_code).checked=true;
+            }
+          }else {
+            // caso 2.1
+            if(idDept > -1){
+              $scope.selected.splice(idDept, 1);
+              // $scope.clickedDepartament = false;
+              document.getElementById(dept.departament_name + dept.departament_code).checked=false;
+            }
           }
-        })
-      // var idaccount = $scope.selected.indexOf(account);
-      // if (idaccount > -1) {
-      //   $scope.selected.splice(idaccount, 1);
-      // } else {
-      //   $scope.selected.push(account);
-      // }
+        }
+      )
     }
 
     $scope.addDepartament = function (departament) {
       console.log("addDepartament");
-      console.log("clickedDepartament " + $scope.clickedDepartament)
       iddepartament = $scope.selected.indexOf(departament);
       if (iddepartament > -1) {
         $scope.selected.splice(iddepartament, 1);
+        // $scope.clickedDepartament = false;
+        document.getElementById(departament.departament_name + departament.departament_code).checked=false;
       } else {
         $scope.selected.push(departament);
+        document.getElementById(departament.departament_name + departament.departament_code).checked=true;
+        // $scope.clickedDepartament = true;
       }
     }
 
-    // Elimina los departamentos de una cuenta que estén en "$scope.selected"
-    $scope.deleteDepartments = function(_departments){
-        _departments.map(
-          function(_dept){
-              if( $scope.selected.indexOf(_dept) > -1){
-                $scope.selected.splice( $scope.selected.indexOf(_dept),1 )
-              }
-          });
-    }
     // Se invoca desde el listado de elementos seleccionados
     $scope.deleteSelected = function(_item){
       document.getElementById(_item.departament_name + _item.departament_code).disabled=false;

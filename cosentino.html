@@ -110,7 +110,7 @@
                                                                     </span>
                                                                 </div>
                                                                 <input type="checkbox" id="{{account.account_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(account.account_code);"
-                                                                ng-click="clickedAccount = (!clickedAccount); addAccount(data, account);"/>
+                                                                ng-click="clickedAccount = (!clickedAccount);addAccount(data, account, clickedAccount);"/>
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">
@@ -125,11 +125,11 @@
                                                                                                 <i  class="fas fa-angle-right mr-2"></i>
                                                                                                 {{ departament.departament_name }}
                                                                                                 <small class="ml-2">( {{ departament.departament_code
-                                                                                                }} ) :-p  {{ clickedAccount }} {{ clickedDepartament }}</small>
+                                                                                                }} )</small>
                                                                                             </span>
                                                                                         </div>
-                                                                                        <input type="checkbox" id="{{departament.departament_name}}{{departament.departament_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(departament.departament_code);"
-                                                                                        ng-click="clickedDepartament = (!clickedDepartament) ; addDepartament(departament)"  ng-disabled=" clickedAccount "/>
+                                                                                        <input type="checkbox" id="{{departament.departament_name}}{{departament.departament_code}}" class="form-check-input" ng-model="selected"
+                                                                                       ng-click="addDepartament(departament);"  ng-disabled=" clickedAccount "/>
                                                                                     </div>
                                                                                     <div id="department{{ $index }}" class="collapse">
                                                                                         <div class="card-body">
