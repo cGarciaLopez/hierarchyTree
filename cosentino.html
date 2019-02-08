@@ -89,8 +89,8 @@
                                             </span>
                                         </div>
 
-                                        <input type="checkbox" id="{{data.business_group_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(data, account, departament);"
-                                        ng-click="addGroup(data, account, departament); clickedGroup = !clickedGroup"/>
+                                        <input type="checkbox" id="{{data.business_group_code}}" class="form-check-input" ng-model="selected" ng-checked=""
+                                        ng-click="clickedGroup = !clickedGroup; addGroup(data, clickedGroup);"/>
                                         <br />
 
                                     </div>
@@ -109,8 +109,8 @@
                                                                         <small class="ml-2">( {{ account.account_code }} )</small>
                                                                     </span>
                                                                 </div>
-                                                                <input type="checkbox" id="{{account.account_code}}" class="form-check-input" ng-model="selected" ng-checked="exist(account.account_code);"
-                                                                ng-click="clickedAccount = (!clickedAccount);selectAccount(data, account, clickedAccount);"/>
+                                                                <input type="checkbox" id="{{account.account_name}}{{account.account_code}}" name="{{data.group_name}}{{data.business_group_code}}" class="form-check-input" ng-model="selected"
+                                                                ng-checked="exist(account) || clickedAccount" ng-click="clickedAccount = (!clickedAccount); selectAccount(account, clickedAccount);"/>
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">
@@ -128,8 +128,8 @@
                                                                                                 }} )</small>
                                                                                             </span>
                                                                                         </div>
-                                                                                        <input type="checkbox" id="{{departament.departament_name}}{{departament.departament_code}}" name="{{account.account_code}}" class="form-check-input" ng-model="selected"
-                                                                                       ng-click="addDepartament(departament);"  ng-disabled=" clickedAccount "/>
+                                                                                        <input type="checkbox" id="{{departament.departament_name}}{{departament.departament_code}}" name="{{account.account_name}}{{account.account_code}}" class="form-check-input" ng-model="selected"
+                                                                                       ng-checked="exist(department)" ng-click="addDepartament(departament); clickedDepartament= (!clickedDepartament)"  ng-disabled=" clickedAccount"/>
                                                                                     </div>
                                                                                     <div id="department{{ $index }}" class="collapse">
                                                                                         <div class="card-body">
@@ -162,7 +162,7 @@
                         <div class="card mt-3">
                             <div class="mb-2">
                                 <ul class="mt-1 pl-0 pr-3">
-                                    <li ng-repeat="selectedData in selected" class="card-header">
+                                    <li ng-repeat="selectedData in selected | filter: searchText" class="card-header">
                                         <div>
                                             <div class="btn pl-3">
 
@@ -179,8 +179,9 @@
                                                 </span>
                                                 </div>
 
-                                                <button type="button" ng-show="selectedData.group_name" class="btn btn-outline-secondary float-left" ng-click="delSelectedGroup(selectedData)">X GRUPO</button>
-                                                <button type="button" ng-show="selectedData.departament_name" class="btn btn-outline-secondary float-left" ng-click="delSelectedDept(selectedData)">X DEPARTAMENTO</button>
+                                                <button type="button" ng-show="selectedData.group_name" class="btn btn-outline-dark float-left" ng-click="delSelectedGroup(selectedData)">X (GRUPO)</button>
+                                                <button type="button" ng-show="selectedData.account_name" class="btn btn-outline-dark float-left" ng-click="delSelectedAccount(selectedData)">X (CUENTA)</button>
+                                                <button type="button" ng-show="selectedData.departament_name" class="btn btn-outline-secondary float-left" ng-click="delSelectedDept(selectedData)">X (DEPARTAMENTO)</button>
 
                                             </div>
                                     </li>
