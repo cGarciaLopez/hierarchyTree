@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngResource']);
 
 app.controller('appController', function ($scope, $http, dataResource) {
-  $http.get('./mocks/cosentino.json').then(function () {
+  $http.get('./mocks/C51239JK.json').then(function () {
 
 
      // TODO:
@@ -25,40 +25,41 @@ app.controller('appController', function ($scope, $http, dataResource) {
     $scope.clickedAccount = false;
     $scope.clickedDepartament = false;
 
+    // SOLO PARA CUENTAS CON MUCHOS GRUPOS
+    // Selecciona el/los grupos de una lista desplegable.
     $scope.selectGroup = function (_group) {
       $scope.selectedGroup = _group;
     }
 
-    // Selecciona el (o los grupos completos)
-    // marca los checkboxes del arbol
-    // deshabilita los checkboxes
-    // añade el identificador a la caja de elementos seleccionados
+    // Selecciona el (o los) grupo completo.
     $scope.checkAll = function(){
       // console.log($scope.datosResource)
       console.log('checkAll');
       $scope.datosResource.forEach(
         function(element){
+          // console.log(element)
           let _group = {};
           _group.group_name = element.group_name;
           _group.business_group_code = element.business_group_code;
           $scope.selected.push(_group)
         }
       )
-      // console.log($scope.selected)
-    }
+      let aItems = document.getElementsByClassName("form-check-input");
+      for (var i = 0; i < aItems.length; i++) {
+        aItems[i].disabled=true;
+        aItems[i].checked=true;
+      }
+    } // checkAll
 
+    // Inicializa el objeto 'selected'
     $scope.uncheckAll = function () {
       $scope.selected = [];
-    };
-
-    $scope.exist = function (data) {
-      // if(data!==undefined){
-      //   if($scope.selected.indexOf(data) > -1){
-      //     console.log('Coño, existe ' + data);
-      //   }
-      // }
-      return $scope.selected.indexOf(data) > -1;
-    }
+      let aItems = document.getElementsByClassName("form-check-input");
+      for (var i = 0; i < aItems.length; i++) {
+        aItems[i].disabled=false;
+        aItems[i].checked=false;
+      }
+    }; //uncheckAll
 
     // Selección por el usuario de un grupo
     $scope.addGroup = function (data, selecc) {
@@ -85,31 +86,27 @@ app.controller('appController', function ($scope, $http, dataResource) {
               }
             }
           }else {
-            // caso 2.1
-            if(idAccount > -1){
-              $scope.selected.splice(idAccount, 1);
-              document.getElementById(account.account_name + account.account_code).checked=false;
-            }
+            $scope.delSelectedAccount(account);
           }
         }
       )
+    } //addGroup
 
+    // Elimina el grupo del panel de 'seleccionados'
+    $scope.delSelectedGroup = function(group) {
+      console.log('delSelectedGroup');
+      let iddata = $scope.selected.indexOf(group);
+      $scope.selected.splice(iddata, 1);
 
-      // let iddata = $scope.selected.indexOf(data);
-      // if (iddata > -1) {
-      //   $scope.selected.splice(iddata, 1);
-      //   // $scope.removeAccount();
-      // } else {
-      //   let _group = {};
-      //   _group.group_name=data.group_name;
-      //   _group.business_group_code=data.business_group_code;
-      //   $scope.selected.push(_group);
+      //  TODO:::::  Una vez borrado el grupo del panel derecho, controlar el izquierdo.
+      // deschequear el  grupo
+      // habilitar y deschequear las cuentas
+      // habilitar y deschequear lo departamentos
+      // let oAccounts = document.getElementsByName(group.group_name +group.business_group_code);
+      // for (var i = 0; i < oAccounts.length; i++) {
+      //   oAccounts[i].disabled = false;
       // }
-      //
-
-
-
-    }
+    } // delSelectedGroup
 
     // El usuario ha seleccionado una cuenta.
     // Se pasan todos los departamentos al panel de seleccion.
@@ -143,38 +140,8 @@ app.controller('appController', function ($scope, $http, dataResource) {
           }
         }
       )
-    }
+    } // selectAccount
 
-    $scope.addDepartament = function (departament) {
-      console.log("addDepartament");
-      let iddepartament = $scope.selected.indexOf(departament);
-      let oCheckBox = document.getElementById(departament.departament_name + departament.departament_code);
-      if (iddepartament > -1) {
-        $scope.selected.splice(iddepartament, 1);
-        // $scope.clickedDepartament = false;
-        oCheckBox.checked=false;
-      } else {
-        $scope.selected.push(departament);
-        oCheckBox.checked=true;
-        oCheckBox.disabled=true;
-        // $scope.clickedDepartament = true;
-      }
-    }
-
-    // Elimina el grupo del panel de 'seleccionados'
-    $scope.delSelectedGroup = function(group) {
-      console.log('delSelectedGroup');
-      let iddata = $scope.selected.indexOf(group);
-      if (iddata > -1) {
-        $scope.selected.splice(iddata, 1);
-
-      //  TODO:::::  Una vez borrado el grupo del panel derecho, controlar el izquierdo.
-
-
-      }
-    }
-
-    /************  PANEL DE ITEMS SELECCIONADOS  ***********/
     // Se invoca desde el listado de elementos seleccionados
     $scope.delSelectedAccount = function(account) {
       console.log('delSelectedAccount');
@@ -192,21 +159,23 @@ app.controller('appController', function ($scope, $http, dataResource) {
           oDept.checked=false;
         }
       )
-      //
-      // // Compruebo que hay departamentos de la cuenta seleccionados, de lo contrario hay que deschequear la cuenta.
-      // let _accChecked = false;
-      // let aDepts = document.getElementsByName(oAccount.name);
-      // for(var i=0; i < aDepts.length; i++){
-      //   if(aDepts[i].checked){
-      //     _accChecked = true;
-      //     break;
-      //   }
-      // }
-      // if(!_accChecked){
-      //   document.getElementById(oDept.name).checked=false;
-      // }
-
     } //delSelectedAccount
+
+
+    $scope.addDepartament = function (departament) {
+      console.log("addDepartament");
+      let iddepartament = $scope.selected.indexOf(departament);
+      let oCheckBox = document.getElementById(departament.departament_name + departament.departament_code);
+      if (iddepartament > -1) {
+        $scope.selected.splice(iddepartament, 1);
+        oCheckBox.checked=false;
+      } else {
+        $scope.selected.push(departament);
+        oCheckBox.checked=true;
+        oCheckBox.disabled=true;
+      }
+    } // addDepartament
+
 
     // Se invoca desde el listado de elementos seleccionados
     $scope.delSelectedDept = function(department) {
@@ -229,14 +198,31 @@ app.controller('appController', function ($scope, $http, dataResource) {
       }
     } //delSelectedDept
 
+    // FUNCIONES AUXILIARES
+    // Chequea si un elemento se encuentra en el objeto 'selected'
+    $scope.existeGroup = function (data) {
+      let existe = false;
+      for (var i = 0; i < $scope.selected.length; i++) {
+        if(
+          ($scope.selected[i].group_name === data.group_name)
+            && $scope.selected[i].business_group_code === data.business_group_code){
+            existe = true;
+            break
+        }
+      }
+      return existe;
+    }
 
+    $scope.exist = function (data) {
+      return $scope.selected.indexOf(data) > -1;
+    }
 
   });
 
 });
 
 app.factory('dataResource', function ($resource) {
-  return $resource('./mocks/cosentino.json',
+  return $resource('./mocks/C51239JK.json',
     {},
     {
       get: { method: 'GET', isArray: true }
