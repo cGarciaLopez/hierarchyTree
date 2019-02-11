@@ -100,6 +100,8 @@ app.controller('appController', function ($scope, $http, dataResource) {
 
       //  TODO:::::  Una vez borrado el grupo del panel derecho, controlar el izquierdo.
       // deschequear el  grupo
+      let oGroup = document.getElementById(group.group_name + group.business_group_code);
+      oGroup.disabled=false;
       // habilitar y deschequear las cuentas
       // habilitar y deschequear lo departamentos
       // let oAccounts = document.getElementsByName(group.group_name +group.business_group_code);
