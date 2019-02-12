@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngResource']);
 
 app.controller('appController', function ($scope, $http, dataResource) {
-  $http.get('./mocks/C51239JK.json').then(function () {
+  $http.get('./mocks/c51239jk.json').then(function () {
 
 
      // TODO:
@@ -33,8 +33,8 @@ app.controller('appController', function ($scope, $http, dataResource) {
 
     // Selecciona el (o los) grupo completo.
     $scope.checkAll = function(){
-      // console.log($scope.datosResource)
       console.log('checkAll');
+      $scope.selected = []
       $scope.datosResource.forEach(
         function(element){
           // console.log(element)
@@ -79,11 +79,12 @@ app.controller('appController', function ($scope, $http, dataResource) {
               $scope.selected.push(account);
               document.getElementById(account.account_name + account.account_code).checked=true;
               document.getElementById(account.account_name + account.account_code).disabled=true;
-              // Deshabilito los departamentos
-              let aDepts = document.getElementsByName(account.account_name+account.account_code);
-              for(var i=0; i < aDepts.length; i++){
-                aDepts[i].disabled = true;
-              }
+              // // Deshabilito los departamentos
+              // let aDepts = document.getElementsByName(account.account_name+account.account_code);
+              // for(var i=0; i < aDepts.length; i++){
+              //   aDepts[i].disabled = true;
+              // }
+              $scope.disableDepts(account);
             }
           }else {
             $scope.delSelectedAccount(account);
@@ -91,6 +92,15 @@ app.controller('appController', function ($scope, $http, dataResource) {
         }
       )
     } //addGroup
+
+    // Desabilita el checkbox de los departamentos de una cuenta
+    $scope.disableDepts = function(account){
+      // Deshabilito los departamentos
+      let aDepts = document.getElementsByName(account.account_name+account.account_code);
+      for(var i=0; i < aDepts.length; i++){
+        aDepts[i].disabled = true;
+      }
+    }
 
     // Elimina el grupo del panel de 'seleccionados'
     $scope.delSelectedGroup = function(group) {
@@ -104,11 +114,37 @@ app.controller('appController', function ($scope, $http, dataResource) {
       oGroup.disabled=false;
       // habilitar y deschequear las cuentas
       // habilitar y deschequear lo departamentos
-      // let oAccounts = document.getElementsByName(group.group_name +group.business_group_code);
-      // for (var i = 0; i < oAccounts.length; i++) {
-      //   oAccounts[i].disabled = false;
-      // }
+      let oAccounts = document.getElementsByName(group.group_name +group.business_group_code);
+      for (var i = 0; i < oAccounts.length; i++) {
+        oAccounts[i].disabled = false;
+        oAccounts[i].checked = false;
+        $scope.iteraAccount(oAccounts[i]);
+      }
     } // delSelectedGroup
+    // Inicializa los valores de selección de todos los departamentos de una cuenta.
+    $scope.iteraAccount = function(_cuenta){
+      let aDepts = document.getElementsByName(_cuenta.id);
+      for (var i = 0; i < aDepts.length; i++) {
+        aDepts[i].disabled=false;
+        aDepts[i].checked=false;
+      }
+    }
+
+    // Elimina el grupo del panel de 'seleccionados'
+    $scope.delSelectedGroup_new = function(group) {
+      console.log('delSelectedGroup');
+      let iddata = $scope.selected.indexOf(group);
+      $scope.selected.splice(iddata, 1);
+
+      let _grupo = $scope.datosResource.find(
+        function(_item){
+          return _item.group_name === group.group_name;
+        }
+      )
+      $scope.addGroup(_grupo,false)
+
+    } // delSelectedGroup_new
+
 
     // El usuario ha seleccionado una cuenta.
     // Se pasan todos los departamentos al panel de seleccion.
@@ -201,7 +237,7 @@ app.controller('appController', function ($scope, $http, dataResource) {
     } //delSelectedDept
 
     // FUNCIONES AUXILIARES
-    // Chequea si un elemento se encuentra en el objeto 'selected'
+    // Chequea si un grupo se encuentra en el objeto 'selected'
     $scope.existeGroup = function (data) {
       let existe = false;
       for (var i = 0; i < $scope.selected.length; i++) {
@@ -213,9 +249,30 @@ app.controller('appController', function ($scope, $http, dataResource) {
         }
       }
       return existe;
-    }
+    } //existeGroup
+
+
+    $scope.existeDepta = function (data) {
+      console.log(data);
+      let existe = false;
+      for (var i = 0; i < $scope.selected.length; i++) {
+        if(
+            $scope.selected[i].departament_name !== undefined
+            && ($scope.selected[i].departament_name === data.departament_name)
+            && $scope.selected[i].departament_code === data.departament_code){
+            existe = true;
+            break
+        }
+      }
+      return existe;
+    } //existeGroup
 
     $scope.exist = function (data) {
+      return $scope.selected.indexOf(data) > -1;
+    }
+
+    // Chequea si un depatamento se encuentra en el objeto 'selected'
+    $scope.existeDepta = function (data) {
       return $scope.selected.indexOf(data) > -1;
     }
 
@@ -224,7 +281,7 @@ app.controller('appController', function ($scope, $http, dataResource) {
 });
 
 app.factory('dataResource', function ($resource) {
-  return $resource('./mocks/C51239JK.json',
+  return $resource('./mocks/c51239jk.json',
     {},
     {
       get: { method: 'GET', isArray: true }
