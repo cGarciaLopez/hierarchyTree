@@ -90,7 +90,7 @@
                                         </div>
 
                                         <input type="checkbox" id="{{data.group_name}}{{data.business_group_code}}" class="form-check-input" ng-model="selected"
-                                        ng-checked="existeGroup(data)" ng-click="clickedGroup = !clickedGroup; addGroup(data, clickedGroup);"/>
+                                        ng-checked="existeGroup(data) || clickedGroup" ng-click="clickedGroup = !clickedGroup;  addGroup(data, clickedGroup);"/>
                                         <br />
 
                                     </div>
@@ -110,13 +110,14 @@
                                                                     </span>
                                                                 </div>
                                                                 <input type="checkbox" id="{{account.account_name}}{{account.account_code}}" name="{{data.group_name}}{{data.business_group_code}}" class="form-check-input" ng-model="selected"
-                                                                ng-checked="exist(account) || clickedAccount" ng-click="clickedAccount = (!clickedAccount); selectAccount(account, clickedAccount);"/>
+                                                                ng-checked="exist(account)" ng-click="clickedAccount = (!clickedAccount); selectAccount(account, clickedAccount);"/>
                                                             </div>
                                                             <div id="account{{ $index }}" class="collapse">
                                                                 <div class="card-body">
                                                                     <div class="card">
                                                                         <h5 class="mb-0">
                                                                             <ul>
+                                                                                <!-- <li ng-repeat="departament in account.departaments"  ng-show="showDepartmentLayer(searchText, departament)" class="card-header bg-light"> -->
                                                                                 <li ng-repeat="departament in account.departaments | filter: searchText" class="card-header bg-light">
                                                                                     <div>
                                                                                         <div class="btn btn-link" type="button" data-toggle="collapse" data-target="#department{{ $index }}" aria-expanded="false"
@@ -207,43 +208,6 @@
                                     </div>
 
                                   </li>
-
-                                    <!-- <li ng-repeat="selectedData in selected" class="card-header">
-                                        <div>
-                                            <div class="btn pl-3" ng-show="searchText==null || selectedData.group_name.indexOf(searchText.toUpperCase())>-1">
-
-                                                <span ng-show="selectedData.business_group_code" class="fas fa-circle"></span>
-                                                <span id="{{selectedData.business_group_code}}" class="ml-2" ng-show="selectedData.business_group_code">{{ selectedData.group_name }}
-                                                  <small>{{ selectedData.business_group_code }}</small>
-{{searchText == null }}
-{{ selectedData.group_name}}
-{{ selectedData.group_name.indexOf(searchText)  }}
-                                                </span>
-
-                                                <span ng-show="selectedData.account_code" class="fas fa-dot-circle"></span>
-                                                <span id="{{selectedData.account_code}}" class="ml-2" ng-show="selectedData.account_code">{{ selectedData.account_name }}
-                                                  <small>{{ selectedData.account_code }}</small>
-                                                </span>
-
-                                                <span ng-show="selectedData.departament_code" class="far fa-dot-circle"></span>
-                                                <span id="{{selectedData.departament_code}}" class="ml-2" ng-show="selectedData.departament_code">{{ selectedData.departament_name }}
-                                                  <small>{{ selectedData.departament_code }}</small>
-                                                </span>
-                                                </div>
-
-                                                <button type="button"
-                                                              ng-show="selectedData.group_name && (searchText==null || selectedData.group_name.indexOf(searchText.toUpperCase())>-1)"
-                                                              class="btn btn-outline-dark float-right" ng-click="delSelectedGroup(selectedData)">X</button>
-                                                <button type="button"
-                                                              ng-show="selectedData.account_name && (searchText==null || selectedData.account_name.indexOf(searchText.toUpperCase())>-1)"
-                                                              class="btn btn-outline-dark float-right" ng-click="delSelectedAccount(selectedData)">X</button>
-                                                <button type="button"
-                                                              ng-show="selectedData.departament_name && (searchText==null || selectedData.departament_name.indexOf(searchText.toUpperCase())>-1)"
-                                                              class="btn btn-outline-secondary float-right" ng-click="delSelectedDept(selectedData)">X</button>
-
-                                            </div>
-                                    </li> -->
-
                                 </ul>
                             </div>
                         </div>

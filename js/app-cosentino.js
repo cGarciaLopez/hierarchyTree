@@ -1,21 +1,8 @@
 var app = angular.module('app', ['ngResource']);
 
 app.controller('appController', function ($scope, $http, dataResource) {
-  $http.get('./mocks/cosentino.json').then(function () {
+  $http.get('./mocks/c51239jk.json').then(function () {
 
-
-     // TODO:
-     //    BUSCAR
-        // ¡ Revisarrrr!
-     //    SELECCIONAR TODO
-            // Selecciona todas las cuentas, pasando solo la raiz de la cuenta, no los departamentos.
-     //    DESELECCIONAR TODO
-            // Facil, borra todo!
-     //    SELECCIONAR EL GRUPO ENTERO
-            // Se pasan todas las cuentas del grupo al panel de seleccion
-    //      DESELECCIONAR GRUPO
-    //    BORRAR CUENTA DEL PANEL DE SELECCION
-            //TODO deseleccionar el check del Grupo
 
     $scope.datosResource = dataResource.get();
     // Objeto que almacena los identificadores de los elementos seleccionados
@@ -65,10 +52,11 @@ app.controller('appController', function ($scope, $http, dataResource) {
     $scope.addGroup = function (data, selecc) {
       console.log("addGroup, grupo seleccionado: " + data.group_name);
       // CASO 1: seleccion del grupo
-      //   caso 1.1: existe la cuenta iterada. Se salta a la siguiente iteración
+      //   caso 1.1: existe la cuenta iterada, hay que eliminar los departamenteos asociados
       //   caso 1.2: NO existe la cuenta seleccionada. Se añade la cuenta, se deselecciona la cuenta y sus departamentos
       // CASO 2: deseleccion del grupo
       //   caso 2.1  si existen cuentas, se eliminan.
+      // $scope.clearDepartaments(data.group_name+data.business_group_code);
       data.accounts.forEach(
         function(account){
           // console.log(account.departament_name)
@@ -76,15 +64,15 @@ app.controller('appController', function ($scope, $http, dataResource) {
           if(selecc){
             // caso 1.2
             if(idAccount == -1){
-              $scope.selected.push(account);
-              document.getElementById(account.account_name + account.account_code).checked=true;
-              document.getElementById(account.account_name + account.account_code).disabled=true;
-              // // Deshabilito los departamentos
-              // let aDepts = document.getElementsByName(account.account_name+account.account_code);
-              // for(var i=0; i < aDepts.length; i++){
-              //   aDepts[i].disabled = true;
-              // }
-              $scope.disableDepts(account);
+              if(
+                ! $scope.searchText
+                || ($scope.searchText && account.account_name.indexOf($scope.searchText.toUpperCase()) > -1)
+              ){
+                $scope.selected.push(account);
+                document.getElementById(account.account_name + account.account_code).checked=true;
+                document.getElementById(account.account_name + account.account_code).disabled=true;
+                $scope.disableDepts(account);
+              }
             }
           }else {
             $scope.delSelectedAccount(account);
@@ -130,22 +118,6 @@ app.controller('appController', function ($scope, $http, dataResource) {
       }
     }
 
-    // Elimina el grupo del panel de 'seleccionados'
-    $scope.delSelectedGroup_new = function(group) {
-      console.log('delSelectedGroup');
-      let iddata = $scope.selected.indexOf(group);
-      $scope.selected.splice(iddata, 1);
-
-      let _grupo = $scope.datosResource.find(
-        function(_item){
-          return _item.group_name === group.group_name;
-        }
-      )
-      $scope.addGroup(_grupo,false)
-
-    } // delSelectedGroup_new
-
-
     // El usuario ha seleccionado una cuenta.
     // Se pasan todos los departamentos al panel de seleccion.
     // Se deshabilitan los checkboxes de los departamentos (NO de la cuenta)
@@ -164,9 +136,15 @@ app.controller('appController', function ($scope, $http, dataResource) {
           if(selecc){
             // caso 1.2
             if(idDept == -1){
-              $scope.selected.push(dept);
-              // $scope.clickedDepartament = true;
-              document.getElementById(dept.departament_name + dept.departament_code).checked=true;
+              // Se comprueba si existe un texto de filtrado.
+              if(
+                ! $scope.searchText
+                || ($scope.searchText && dept.departament_name.indexOf($scope.searchText.toUpperCase()) > -1)
+              ){
+                $scope.selected.push(dept);
+                document.getElementById(dept.departament_name + dept.departament_code).checked=true;
+              }
+
             }
           }else {
             // caso 2.1
@@ -324,12 +302,29 @@ app.controller('appController', function ($scope, $http, dataResource) {
         return rt;
     } //showDepartmentLayer
 
+    // Elimina los departamentos de las cuentas del grupo.
+    $scope.clearDepartaments =function(_idGroup){
+        let aAccounts = document.getElementsByName(_idGroup);
+        for (var i = 0; i < aAccounts.length; i++) {
+          if(aAccounts[i].checked){
+            $scope.aux(aAccounts[i])
+          }
+        }
+    }
+    $scope.aux = function(account){
+      // Iteramos los departamentos
+      let aDepts = document.getElementsByName(account.id);
+      for (var i = 0; i < aDepts.length; i++) {
+        aDepts[i].click()
+      }
+    } // aux
+
   });
 
 });
 
 app.factory('dataResource', function ($resource) {
-  return $resource('./mocks/cosentino.json',
+  return $resource('./mocks/c51239jk.json',
     {},
     {
       get: { method: 'GET', isArray: true }
