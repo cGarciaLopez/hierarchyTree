@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngResource']);
 
 app.controller('appController', function ($scope, $http, dataResource) {
-  $http.get('./mocks/c51239jk.json').then(function () {
+  $http.get('./mocks/cosentino.json').then(function () {
 
 
      // TODO:
@@ -276,12 +276,60 @@ app.controller('appController', function ($scope, $http, dataResource) {
       return $scope.selected.indexOf(data) > -1;
     }
 
+    // Función auxiliar para el buscador
+    $scope.viewSelItem = function(searchText, selectedData){
+        let rt = false;
+        if( selectedData.business_group_code
+          && (searchText===undefined || selectedData.group_name.indexOf(searchText.toUpperCase())>-1)){
+            rt = true;
+          }
+        if( selectedData.account_code
+          && (searchText===undefined || selectedData.account_name.indexOf(searchText.toUpperCase())>-1)){
+            rt = true;
+          }
+        if( selectedData.departament_code
+          && (searchText===undefined || selectedData.departament_name.indexOf(searchText.toUpperCase())>-1)){
+            rt = true;
+          }
+          return rt;
+    }
+
+    // Función auxiliar para el buscador
+    $scope.showGroupLayer = function(searchText, selectedData){
+        let rt = false;
+        if( selectedData.business_group_code
+          && (searchText===undefined || selectedData.group_name.indexOf(searchText.toUpperCase())>-1)){
+            rt = true;
+          }
+          return rt;
+    } // showGroupLayer
+
+    // Función auxiliar para el buscador
+    $scope.showAccountLayer = function(searchText, selectedData){
+      let rt = false;
+      if( selectedData.account_code
+        && (searchText===undefined || selectedData.account_name.indexOf(searchText.toUpperCase())>-1)){
+          rt = true;
+        }
+        return rt;
+    } // showAccountLayer
+
+    // Función auxiliar para el buscador
+    $scope.showDepartmentLayer = function(searchText, selectedData){
+      let rt = false;
+      if( selectedData.departament_code
+        && (searchText===undefined || selectedData.departament_name.indexOf(searchText.toUpperCase())>-1)){
+          rt = true;
+        }
+        return rt;
+    } //showDepartmentLayer
+
   });
 
 });
 
 app.factory('dataResource', function ($resource) {
-  return $resource('./mocks/c51239jk.json',
+  return $resource('./mocks/cosentino.json',
     {},
     {
       get: { method: 'GET', isArray: true }
